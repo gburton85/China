@@ -1,0 +1,17 @@
+<!-- navigation.nunjucks -->
+<!--nav-->
+  <div id="nav-trigger" class="nav-trigger open">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </div>
+  <nav id="nav" class="out">
+    <ul>
+      <li><span class="nav-label">Link 1</span></span></li>
+      <li><span class="nav-label">Link 2</span></li>
+      <li><span class="nav-label">Link 3</span></li>
+      <li><span class="nav-label">Link 4</span></li>
+      <li><span class="nav-label">Link 5</span></li>
+    </ul>
+  </nav><!--end nav-->
+  
