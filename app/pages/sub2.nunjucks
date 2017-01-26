@@ -1,4 +1,4 @@
-<!-- sub.nunjucks -->
+<!-- sub2.nunjucks -->
 {% extends "layout.nunjucks" %}
 
 {% block content %}
@@ -8,7 +8,7 @@
 <!--content-->
 
 <article>
-  <h1>1. Get Ahead</h1>
+  <h1>2. Get a Career Plan</h1>
 
   <p class="larger">Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos?
   </p>

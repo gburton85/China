@@ -4,12 +4,14 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigation.nunjucks" %}
+
 <!--header-->
   <section id="header" class="header">
     <h1 id="heading">Get Ahead</h1>
+       <a href="#one" class="scrolly"><i class="fa fa-angle-down fa-2x"></i></a>
   </section><!--end header-->
 
-<section class="style1">
+<section id="one" class="style1">
   <h2>Get Ahead, Get Started, on Your Career Journey</h2>
 
   <h5>Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos?
