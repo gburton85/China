@@ -1,14 +1,14 @@
-<!-- sub9.nunjucks -->
+<!-- sub7CH.nunjucks -->
 {% extends "layout.nunjucks" %}
 
 {% block content %}
 <!-- Adds the navigation partial -->
-{% include "partials/navigation.nunjucks" %}
+{% include "partials/navigationCH.nunjucks" %}
 {% include "partials/subheader.nunjucks" %}
 <!--content-->
 
 <article>
-  <h1>1. Get Ahead</h1>
+  <h1>7. 您的下一步</h1>
 
   <p class="larger">Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos?
   </p>

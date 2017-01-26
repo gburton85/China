@@ -389,3 +389,18 @@ article {
   padding-top: 3em;
   padding-bottom: 2em;
   width: 80%; }
+
+.lang {
+  position: absolute;
+  top: 0;
+  left: -40px;
+  color: #fff;
+  padding: 10px;
+  z-index: 1000; }
+  .lang ul li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    padding: 10px; }
+    .lang ul li a {
+      color: #ccc; }

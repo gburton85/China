@@ -494,3 +494,22 @@ article{
     width: 80%;
   }
 }
+
+//lang buttons
+.lang{
+  position: absolute;
+  top: 0;
+  left: -40px;
+  color: #fff;
+  padding: 10px;
+  z-index: 1000;
+  & ul li{
+    display: block;
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    & a {
+      color: #ccc;
+    }
+  }
+}
