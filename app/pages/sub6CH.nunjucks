@@ -6,6 +6,12 @@
 {% include "partials/navigationCH.nunjucks" %}
 {% include "partials/subheader.nunjucks" %}
 <!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="sub6.html">EN</a></li>
+    <li><a href="sub6CH.html">CH</a></li>
+  </ul>
+</div>
 
 <article>
   <h1>6. 查看您的计划</h1>
@@ -61,7 +67,7 @@
       </video>
     </div>
   </div>
-
+<a href="sub7CH.html" class="nx-button">></a>
 </article>
 
 {% endblock %}

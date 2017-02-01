@@ -6,11 +6,17 @@
 {% include "partials/navigationCH.nunjucks" %}
 {% include "partials/subheader.nunjucks" %}
 <!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="sub1.html">EN</a></li>
+    <li><a href="sub1CH.html">CH</a></li>
+  </ul>
+</div>
 
 <article>
   <h1>1. 预见</h1>
 
-  <p class="larger">Si meliora dies, ut vina, poemata reddit, scire velim, chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos?
+  <p class="larger">笻一珫逋菆楱亍蜰曌丮，掔亍恮梪蛜溮兀摵毌氻。隃岠穵殧楱踳劦一琭剮俵邲犮胉兀，瑆琣亍毞胠腛忞忉兀呥鬿垤巿泇。冇奊极粘耏禶葰搹妀扚洴忻皯沰沋尳乇狜摦搥。眵一疧媎堨慀兀廕殧冘
   </p>
   <p>Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno mense vel anno, inter quos referendus erit?
   </p>
@@ -61,7 +67,7 @@
       </video>
     </div>
   </div>
-
+<a href="sub2CH.html" class="nx-button">></a>
 </article>
 
 {% endblock %}

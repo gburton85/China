@@ -6,6 +6,12 @@
 {% include "partials/navigation.nunjucks" %}
 {% include "partials/subheader.nunjucks" %}
 <!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="sub4.html">EN</a></li>
+    <li><a href="sub4CH.html">CH</a></li>
+  </ul>
+</div>
 
 <article>
   <h1>4. Create Your Own Career Plan</h1>
@@ -61,7 +67,7 @@
       </video>
     </div>
   </div>
-
+<a href="sub5.html" class="nx-button">></a>
 </article>
 
 {% endblock %}

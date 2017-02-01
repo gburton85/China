@@ -7,6 +7,13 @@
 {% include "partials/subheader.nunjucks" %}
 <!--content-->
 
+<div class="lang">
+  <ul>
+    <li><a href="sub1.html">EN</a></li>
+    <li><a href="sub1CH.html">CH</a></li>
+  </ul>
+</div>
+
 <article>
   <h1>1. Get Ahead</h1>
 
@@ -61,7 +68,7 @@
       </video>
     </div>
   </div>
-
+<a href="sub2.html" class="nx-button">></a>
 </article>
 
 {% endblock %}

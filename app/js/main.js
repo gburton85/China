@@ -28,11 +28,12 @@ function resize() {
     labels[i].style.marginTop = '-'+fontSize*0.6+'px';
   }
 
-  //header.style.height = windowHeight+'px';
+/* //header size redraw is too slow
+  header.style.height = windowHeight+'px';
   heading.style.fontSize = headingSize+'px';
   heading.style.height = headingSize+'px';
   heading.style.marginTop = '-'+headingSize*0.6+'px';
-
+*/
 }
 
 function navToggle(e) {
