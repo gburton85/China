@@ -12,8 +12,9 @@ body {
   background: #fff;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
-  padding-bottom: 300px;
+  padding-bottom: 250px;
   overflow-x: hidden;
+  background: #FEFDFB;
 }
 
 p {
@@ -48,7 +49,7 @@ h1,h2,h3,h4,h5{
 }
 
 .nav-trigger.open {
-  background: #222;
+  background: #31353A;
 }
 
 .nav-trigger.close {
@@ -314,29 +315,44 @@ nav.in li {
   position: absolute;
   margin: 0;
   font-family: "Patua One", cursive;
-  text-align: center;
+  left: 10%;
   display: block;
-  top: 45%;
-  font-size: 5em;
+  top: 40%;
+  font-size: 12em;
+  line-height: .8em;
+    @media (max-width:768px){
+      font-size: 8em;
+    }
   }
+  & h2 {
+   width: 100%;
+   color: #fff;
+   position: absolute;
+   margin: 0;
+   font-family: "Patua One", cursive;
+   left: 10%;
+   display: block;
+   top: 75%;
+   font-size: 5em;
+   line-height: .9em;
+   @media (max-width:768px){
+     font-size: 4rem;
+   }
+   }
   & a:hover,a:visited, a:active, a:focus{
     color: #fff;
   }
 }
-@media (min-width:1600px){
-  .header h1{
-    font-size: 7em;
-  }
-}
+
 
 .scrolly{
   position: absolute;
   bottom: 0;
   left: 48%;
-  color: #fff;
+  color: #80b738;
   padding: 10px;
   & :hover{
-    color: #CCAC00;
+    color: #fff;
   }
   & :visited, :active, :focus{
     color:#fff;
@@ -361,20 +377,34 @@ section h2{
 .style1{
   padding: 5% 10%;
   text-align: center;
-  & h5, p {
-    max-width: 1000px;
+  & h1,h2,h3,h4,h5,p {
+    max-width: 960px;
     margin: 0 auto;
     line-height: 1.5em;
     padding-bottom: .5em;
   }
+  & p {
+    padding-bottom: 1.5em;
+  }
+  & hr{
+    border-color: #80b738;
+    width: 25%;
+    margin: 20px auto;
+  }
+}
+.green{
+  color: #80b738;
 }
 
 .style2{
-  background: #eee;
+  background: #80b738;
   & h5, p {
     max-width: 1000px;
     margin: 0 auto;
     line-height: 1.5em;
+  }
+  & p{
+    color: #fff;
   }
 }
 
@@ -383,6 +413,8 @@ section h2{
   display: flex;
   flex-wrap: wrap;
   background-color: #31353A;
+  width:100%;
+  margin: 3% auto 2%;
 
   &__item {
     height: 30%;
@@ -456,7 +488,7 @@ section h2{
 
 //footer
 footer {
-  height: 300px;
+  height: 250px;
   background: #31353A;
   font-size: 12px;
   color: #CCC;
@@ -468,36 +500,75 @@ footer {
     padding: 5px;
   }
   & .row {
-    padding: 5% 10%;
+    padding: 3% 10%;
     color: #FFF;
     font-size: 2.125rem;
+  }
+  & img {
+    max-height:100px;
+    padding-top: 20px;
+  }
+  & h5 a{
+    color: #fff;
+  }
+  & h5 a:hover{
+    color: #80b738;
   }
 }
 
 //article styles
 article{
-  padding: 5% 10%;
+  padding: 3% 10%;
   max-width: 1200px;
   margin: 0 auto;
+  & h1,h2,h3 {
+    color: #248ca3;
+  }
   & .list{
     padding-top: 1em;
+    color: #248ca3;
+    & p {
+      color: #000;
+    }
+    & h4,h5 {
+      color: #248ca3;
+      font-weight: lighter;
+    }
   }
 }
+
+.contain{
+  width: 90%;
+  margin: auto;
+}
+
 .larger{
   font-size: 1.3em;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
+.cursive{
+  font-size: 2em;
+  font-weight: bold;
+  color: #80b738;
+  padding-top: 20px;
+}
+
 //video
 .blog{
-  padding-top: 2em;
-}
-.video{
-  & video{
-    padding-top: 3em;
-    padding-bottom: 2em;
-    width: 80%;
+  margin-top: 2em;
+  margin-bottom: 2e,;
+  padding: 2em;
+  background: #80b738;
+  &img {
+    padding:20px;
+  }
+  & h5,p {
+    color: #fff;
+  }
+  .bubble {
+    height: 150px;
   }
 }
 
@@ -524,8 +595,11 @@ article{
 a:hover {
   text-decoration: none;
 }
+a.nx-button:hover{
+  color: #1d1d1d;
+}
 .nx-button {
-  background-color: #ddd;
+  background-color: #80b738;
   width: 50px;
   height: 50px;
   position: absolute;
@@ -544,5 +618,35 @@ a:hover {
   }
   @media (max-width:600px){
     left: 90%;
+  }
+}
+
+//sideBar
+.sideBar{
+  padding: 0 20px 40px;
+  @media (max-width:768px){
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  & img{
+    border: 10px solid #80b738;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 10px;
+    @media (max-width:768px){
+      max-width: 70%;
+    }
+  }
+  & .name{
+    padding: 0 10px;
+    color: #248ca3;
+    & p {
+      color: #000;
+    }
+  }
+  & .quote{
+    padding: 0 10px;
+    color: #248ca3;
+    font-weight: lighter;
   }
 }
