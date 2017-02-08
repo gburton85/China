@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Patua+One);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 html {
   position: relative;
   min-height: 100%;
@@ -9,7 +11,7 @@ html {
 body {
   background: #fff;
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   padding-bottom: 250px;
   background: #FEFDFB;
   overflow-x: hidden !important; }
@@ -18,7 +20,7 @@ p {
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Patua One", cursive; }
+  font-family: 'Montserrat', sans-serif; }
 
 .nav-trigger {
   position: fixed;
@@ -121,7 +123,7 @@ nav li {
   position: relative;
   background: #222;
   color: #fff;
-  font-family: "Patua One", cursive; }
+  font-family: 'Montserrat', sans-serif; }
   nav li a, nav li a:hover {
     color: #fff; }
 
@@ -267,7 +269,7 @@ nav.in li {
     color: #fff;
     position: absolute;
     margin: 0;
-    font-family: "Patua One", cursive;
+    font-family: 'Montserrat', sans-serif;
     left: 10%;
     display: block;
     top: 36%;
@@ -287,7 +289,7 @@ nav.in li {
     color: #fff;
     position: absolute;
     margin: 0;
-    font-family: "Patua One", cursive;
+    font-family: 'Montserrat', sans-serif;
     left: 10%;
     display: block;
     top: 70%;
