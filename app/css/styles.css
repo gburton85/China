@@ -2,15 +2,17 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 html {
   position: relative;
-  min-height: 100%; }
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden !important; }
 
 body {
   background: #fff;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 250px;
-  overflow-x: hidden;
-  background: #FEFDFB; }
+  background: #FEFDFB;
+  overflow-x: hidden !important; }
 
 p {
   line-height: 1.5; }
@@ -92,7 +94,8 @@ nav {
   width: 100%;
   height: 100%;
   position: fixed;
-  z-index: 100; }
+  z-index: 100;
+  overflow-x: hidden; }
 
 nav.out {
   pointer-events: none; }
@@ -267,12 +270,18 @@ nav.in li {
     font-family: "Patua One", cursive;
     left: 10%;
     display: block;
-    top: 40%;
+    top: 36%;
     font-size: 12em;
     line-height: .8em; }
     @media (max-width: 768px) {
       .header h1 {
-        font-size: 8em; } }
+        font-size: 5em; } }
+    @media (max-height: 768px) {
+      .header h1 {
+        font-size: 7em; } }
+    @media (max-width: 400px) {
+      .header h1 {
+        font-size: 5em; } }
   .header h2 {
     width: 100%;
     color: #fff;
@@ -281,12 +290,15 @@ nav.in li {
     font-family: "Patua One", cursive;
     left: 10%;
     display: block;
-    top: 75%;
+    top: 70%;
     font-size: 5em;
     line-height: .9em; }
     @media (max-width: 768px) {
       .header h2 {
         font-size: 4rem; } }
+    @media (max-width: 400px) {
+      .header h2 {
+        font-size: 3rem; } }
   .header a:hover, .header a:visited, .header a:active, .header a:focus {
     color: #fff; }
 
@@ -326,6 +338,10 @@ section h2 {
     border-color: #80b738;
     width: 25%;
     margin: 20px auto; }
+  @media (max-width: 768px) {
+    .style1 h3 {
+      font-size: 1.2em;
+      padding-bottom: 20px; } }
 
 .green {
   color: #80b738; }
@@ -508,7 +524,7 @@ a.nx-button:hover {
     margin-bottom: 10px; }
     @media (max-width: 768px) {
       .sideBar img {
-        max-width: 70%; } }
+        max-width: 200px; } }
   .sideBar .name {
     padding: 0 10px;
     color: #248ca3; }
