@@ -1,7 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Patua+One);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,500,700,800|Roboto:300,400,700");
 html {
   position: relative;
   min-height: 100%;
@@ -11,8 +8,8 @@ html {
 body {
   background: #fff;
   height: 100%;
-  font-family: 'Ubuntu', sans-serif;
-  padding-bottom: 250px;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 150px;
   background: #FEFDFB;
   overflow-x: hidden !important; }
 
@@ -21,6 +18,9 @@ p {
 
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif; }
+
+h1 {
+  font-weight: 800; }
 
 .nav-trigger {
   position: fixed;
@@ -123,7 +123,7 @@ nav li {
   position: relative;
   background: #222;
   color: #fff;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
   nav li a, nav li a:hover {
     color: #fff; }
 
@@ -253,12 +253,11 @@ nav.in li {
   text-align: center;
   height: 16px;
   top: 50%;
-  margin-top: -8px;
-  text-transform: uppercase; }
+  margin-top: -8px; }
 
 .header {
   background: #31353A;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/bg.jpg);
+  background: url(../images/home-preuk.jpeg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -274,7 +273,8 @@ nav.in li {
     display: block;
     top: 36%;
     font-size: 12em;
-    line-height: .8em; }
+    line-height: .8em;
+    font-weight: 800; }
     @media (max-width: 768px) {
       .header h1 {
         font-size: 5em; } }
@@ -327,13 +327,14 @@ section h2 {
   margin-bottom: 1.5em; }
 
 .style1 {
-  padding: 5% 10%;
-  text-align: center; }
+  padding: 3% 10%;
+  max-width: 1400px;
+  margin: 0 auto; }
   .style1 h1, .style1 h2, .style1 h3, .style1 h4, .style1 h5, .style1 p {
-    max-width: 960px;
     margin: 0 auto;
     line-height: 1.5em;
-    padding-bottom: .5em; }
+    padding-bottom: .5em;
+    width: 95%; }
   .style1 p {
     padding-bottom: 1.5em; }
   .style1 hr {
@@ -360,9 +361,8 @@ section h2 {
 .masonry {
   display: flex;
   flex-wrap: wrap;
-  background-color: #31353A;
-  width: 100%;
-  margin: 3% auto 2%; }
+  margin: 3% auto 2%;
+  max-width: 1065px; }
   .masonry__item {
     height: 30%;
     width: calc(100% / 3); }
@@ -370,11 +370,11 @@ section h2 {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    filter: grayscale(1);
+    filter: grayscale(0.1);
     cursor: pointer;
-    transition: filter 1s ease-out; }
+    transition: filter .8s ease-out; }
   .masonry img:hover {
-    filter: grayscale(0); }
+    filter: brightness(1.2); }
 
 @supports (display: grid) {
   .masonry {
@@ -406,41 +406,31 @@ section h2 {
       grid-template-columns: repeat(5, 1fr); } } }
 
 footer {
-  height: 250px;
+  height: 150px;
   background: #31353A;
   font-size: 12px;
   color: #CCC;
   position: absolute;
   bottom: 0;
   width: 100%; }
-  footer .fa {
-    color: #ccc;
-    padding: 5px; }
-  footer .row {
-    padding: 3% 10%;
-    color: #FFF;
-    font-size: 2.125rem; }
   footer img {
     max-height: 100px;
-    padding-top: 20px; }
-  footer h5 a {
-    color: #fff; }
-  footer h5 a:hover {
-    color: #80b738; }
+    padding-top: 20px;
+    display: inline-block; }
 
 article {
-  padding: 3% 10%;
-  max-width: 1200px;
+  padding: 2% 10%;
+  max-width: 1400px;
   margin: 0 auto; }
   article h1, article h2, article h3 {
-    color: #248ca3; }
+    color: #80b738; }
   article .list {
     padding-top: 1em;
-    color: #248ca3; }
+    color: #80b738; }
     article .list p {
       color: #000; }
     article .list h4, article .list h5 {
-      color: #248ca3;
+      color: #80b738;
       font-weight: lighter; }
 
 .contain {
@@ -449,8 +439,11 @@ article {
 
 .larger {
   font-size: 1.3em;
-  padding-top: 1em;
-  padding-bottom: 1em; }
+  padding-top: 1em; }
+
+.noPad {
+  padding-top: 0;
+  padding-bottom: 0; }
 
 .cursive {
   font-size: 2em;
@@ -484,6 +477,21 @@ article {
     padding: 10px; }
     .lang ul li a {
       color: #ccc; }
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  color: #fff;
+  padding: 10px;
+  z-index: 99;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter; }
+  .logo img {
+    height: 40px;
+    width: 40px;
+    margin-left: -5px;
+    margin-right: -5px; }
 
 a:hover {
   text-decoration: none; }
@@ -519,20 +527,37 @@ a.nx-button:hover {
     .sideBar {
       padding-top: 40px;
       padding-bottom: 20px; } }
-  .sideBar img {
+  .sideBar img.profile {
     border: 10px solid #80b738;
     margin: auto;
     width: 90%;
     margin-bottom: 10px; }
     @media (max-width: 768px) {
-      .sideBar img {
+      .sideBar img.profile {
         max-width: 200px; } }
   .sideBar .name {
     padding: 0 10px;
-    color: #248ca3; }
+    color: #80b738; }
     .sideBar .name p {
       color: #000; }
   .sideBar .quote {
     padding: 0 10px;
-    color: #248ca3;
-    font-weight: lighter; }
+    font-weight: 200; }
+    .sideBar .quote .quoteMarks {
+      padding: 5px 0; }
+
+.home--text h5 {
+  font-weight: 600;
+  font-size: 1.1em;
+  padding-top: 1em; }
+
+.home--text h3 {
+  color: #333; }
+
+hr.green {
+  background-color: #80b738;
+  height: 3px;
+  border: 0;
+  width: 75%;
+  max-width: 1100px;
+  margin: 0 auto; }

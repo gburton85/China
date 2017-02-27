@@ -1,9 +1,6 @@
 // styles.scss
 //fonts
-@import url(https://fonts.googleapis.com/css?family=Patua+One);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,500,700,800|Roboto:300,400,700');
 
 //general
 html {
@@ -16,8 +13,8 @@ html {
 body {
   background: #fff;
   height: 100%;
-  font-family: 'Ubuntu', sans-serif;;
-  padding-bottom: 250px;
+  font-family: 'Roboto', sans-serif;;
+  padding-bottom: 150px;
   background: #FEFDFB;
   overflow-x: hidden!important;
 }
@@ -27,6 +24,10 @@ p {
 }
 h1,h2,h3,h4,h5{
   font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-weight: 800;
 }
 
 //burger
@@ -147,7 +148,7 @@ nav li {
   position: relative;
   background: #222;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   & a, a:hover {
     color: #fff;
   }
@@ -303,13 +304,12 @@ nav.in li {
   height: 16px;
   top: 50%;
   margin-top: -8px;
-  text-transform: uppercase;
 }
 
 //header
 .header {
   background: #31353A;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/bg.jpg);
+  background: url(../images/home-preuk.jpeg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -326,6 +326,7 @@ nav.in li {
   top: 36%;
   font-size: 12em;
   line-height: .8em;
+  font-weight: 800;
     @media (max-width:768px){
     font-size: 5em;
     }
@@ -390,13 +391,14 @@ section h2{
 }
 
 .style1{
-  padding: 5% 10%;
-  text-align: center;
+  padding: 3% 10%;
+  max-width: 1400px;
+  margin: 0 auto;
   & h1,h2,h3,h4,h5,p {
-    max-width: 960px;
     margin: 0 auto;
     line-height: 1.5em;
     padding-bottom: .5em;
+    width: 95%;
   }
   & p {
     padding-bottom: 1.5em;
@@ -433,9 +435,8 @@ section h2{
 .masonry {
   display: flex;
   flex-wrap: wrap;
-  background-color: #31353A;
-  width:100%;
   margin: 3% auto 2%;
+  max-width: 1065px;
 
   &__item {
     height: 30%;
@@ -446,13 +447,13 @@ section h2{
     object-fit: cover;
     width:100%;
     height: 100%;
-    filter: grayscale(1);
+    filter: grayscale(.1);
     cursor: pointer;
-    transition: filter 1s ease-out;
+    transition: filter .8s ease-out;
   }
 
   img:hover {
-    filter: grayscale(0);
+    filter: brightness(1.2);
   }
 }
 
@@ -509,50 +510,36 @@ section h2{
 
 //footer
 footer {
-  height: 250px;
+  height: 150px;
   background: #31353A;
   font-size: 12px;
   color: #CCC;
   position: absolute;
   bottom: 0;
   width: 100%;
-  & .fa{
-    color: #ccc;
-    padding: 5px;
-  }
-  & .row {
-    padding: 3% 10%;
-    color: #FFF;
-    font-size: 2.125rem;
-  }
   & img {
     max-height:100px;
     padding-top: 20px;
-  }
-  & h5 a{
-    color: #fff;
-  }
-  & h5 a:hover{
-    color: #80b738;
+    display: inline-block;
   }
 }
 
 //article styles
 article{
-  padding: 3% 10%;
-  max-width: 1200px;
+  padding: 2% 10%;
+  max-width: 1400px;
   margin: 0 auto;
   & h1,h2,h3 {
-    color: #248ca3;
+    color: #80b738;
   }
   & .list{
     padding-top: 1em;
-    color: #248ca3;
+    color: #80b738;
     & p {
       color: #000;
     }
     & h4,h5 {
-      color: #248ca3;
+      color: #80b738;
       font-weight: lighter;
     }
   }
@@ -566,7 +553,11 @@ article{
 .larger{
   font-size: 1.3em;
   padding-top: 1em;
-  padding-bottom: 1em;
+}
+
+.noPad{
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .cursive{
@@ -612,6 +603,24 @@ article{
   }
 }
 
+//logo
+.logo{
+  position: absolute;
+  top: 0;
+  left: 100px;
+  color: #fff;
+  padding: 10px;
+  z-index: 99;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  & img{
+  height:40px;
+  width:40px;
+  margin-left: -5px;
+  margin-right: -5px;
+  }
+}
+
 //nx page button
 a:hover {
   text-decoration: none;
@@ -649,7 +658,7 @@ a.nx-button:hover{
     padding-top: 40px;
     padding-bottom: 20px;
   }
-  & img{
+  & img.profile{
     border: 10px solid #80b738;
     margin: auto;
     width: 90%;
@@ -660,14 +669,37 @@ a.nx-button:hover{
   }
   & .name{
     padding: 0 10px;
-    color: #248ca3;
+    color: #80b738;
     & p {
       color: #000;
     }
   }
   & .quote{
     padding: 0 10px;
-    color: #248ca3;
-    font-weight: lighter;
+    font-weight: 200;
+    & .quoteMarks{
+      padding:5px 0;
+    }
   }
+}
+
+//home text
+.home--text{
+  & h5{
+    font-weight: 600;
+    font-size: 1.1em;
+    padding-top: 1em;
+  }
+  & h3 {
+    color: #333;
+  }
+}
+
+hr.green{
+  background-color: #80b738;
+  height: 3px;
+  border: 0;
+  width: 75%;
+  max-width: 1100px;
+  margin:0 auto;
 }
