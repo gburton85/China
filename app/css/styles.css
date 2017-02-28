@@ -118,15 +118,19 @@ nav ul {
   position: absolute;
   padding: 0; }
 
-nav li {
+nav ul li {
   height: 10%;
   padding: 10px;
   position: relative;
   background: #222;
   color: #fff;
-  font-family: 'Roboto', sans-serif; }
-  nav li a, nav li a:hover {
-    color: #fff; }
+  font-family: 'Montserrat', sans-serif; }
+
+nav ul li:nth-of-type(odd) a, nav ul li:nth-of-type(odd) a:hover {
+  color: #ccc; }
+
+nav ul a, nav ul a:hover {
+  color: #fff; }
 
 nav li:hover {
   background: #31353A; }

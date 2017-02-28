@@ -8,7 +8,7 @@ var labels = document.getElementsByClassName('nav-label');
 // sizing
 var windowHeight = window.innerHeight;
 var windowWidth = window.innerWidth;
-var fontSize = windowHeight*0.1;
+var fontSize = windowHeight*0.08;
 var headingSize = windowWidth*0.1;
 
 // Event Listening
@@ -18,14 +18,14 @@ window.addEventListener('resize', resize);
 function resize() {
   windowHeight = window.innerHeight;
   windowWidth = window.innerWidth;
-  fontSize = windowHeight*0.1;
+  fontSize = windowHeight*0.08;
   headingSize = windowWidth*0.1;
   if(headingSize > windowHeight*0.3) headingSize = windowHeight*0.3;
 
   for(var i = 0; i < labels.length; i++) {
     labels[i].style.fontSize = fontSize+'px';
     labels[i].style.height = fontSize+'px';
-    labels[i].style.marginTop = '-'+fontSize*0.6+'px';
+    labels[i].style.marginTop = '-'+fontSize*0.7+'px';
   }
 
 /* //header size redraw is too slow
