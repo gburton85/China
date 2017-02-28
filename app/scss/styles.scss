@@ -309,7 +309,7 @@ nav.in li {
 //header
 .header {
   background: #31353A;
-  background: url(../images/home-preuk.jpeg);
+  background: url(../images/home-preuk.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -377,11 +377,11 @@ nav.in li {
 
 //subheader
 .subHeader {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/bg.jpg);
+  background: url(../images/subHeader.png);
   background-size: cover;
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 250px;
   top: 0px;
 }
 
@@ -540,7 +540,6 @@ article{
     }
     & h4,h5 {
       color: #80b738;
-      font-weight: lighter;
     }
   }
 }
@@ -598,7 +597,7 @@ article{
     float: left;
     padding: 10px;
     & a {
-      color: #ccc;
+      color: #fff;
     }
   }
 }
@@ -613,11 +612,20 @@ article{
   z-index: 99;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
+  background: url('../images/logobkground.svg');
+  background-size: 300px 60px, contain;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  border: none;
   & img{
   height:40px;
   width:40px;
   margin-left: -5px;
   margin-right: -5px;
+  }
+  & a {
+    color: #fff;
   }
 }
 
@@ -635,7 +643,7 @@ a.nx-button:hover{
   position: absolute;
   left: 75%;
   transform: translateX(-50%);
-  top: 175px;
+  bottom: 125px;
   border-radius: 50%;
   box-shadow: 0px 0px 7px #555;
   color: #fff;
@@ -643,6 +651,7 @@ a.nx-button:hover{
   line-height: 50px;
   text-align: center;
   transition: 300ms ease;
+  z-index: 99;
   @media (max-width:1600px){
     left: 85%;
   }
@@ -661,7 +670,7 @@ a.nx-button:hover{
   & img.profile{
     border: 10px solid #80b738;
     margin: auto;
-    width: 90%;
+    width: 80%;
     margin-bottom: 10px;
     @media (max-width:768px){
       max-width: 200px;
@@ -702,4 +711,32 @@ hr.green{
   width: 75%;
   max-width: 1100px;
   margin:0 auto;
+}
+
+.black {
+  color: #333;
+}
+
+//coloured divs
+.greyDiv {
+  background: #f3f3f3;
+  height: 270px;
+  padding: 30px;
+  margin: 20px -15px 50px;
+  & .panel {
+    border-radius: 0px;
+  }
+  & .quoteMarks {
+    padding-bottom: 10px;
+  }
+  & .featureQuote{
+    padding-left: 0;
+  }
+  & img.profile{
+    border: 10px solid #929291;
+    max-width: 150px;
+  }
+  & .name {
+    color: #333;
+  }
 }

@@ -4,7 +4,7 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigation.nunjucks" %}
-
+{% include "partials/logo.nunjucks" %}
 <!--header-->
 <div class="lang">
   <ul>
@@ -62,7 +62,7 @@
         </div>
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
-            <p>Chartis pretium quotus arroget annus. scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
+            <p>Scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
   mense vel anno.</p>
         </div>
 
