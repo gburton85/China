@@ -317,7 +317,8 @@ nav.in li {
 //header
 .header {
   background: #31353A;
-  background: url(../images/home-preuk.jpg);
+  background: linear-gradient(to right top, #333, transparent 90%),
+              url(../images/home-preuk.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -445,10 +446,12 @@ section h2{
   flex-wrap: wrap;
   margin: 3% auto 2%;
   max-width: 1065px;
+  background: #FEFDFB;
 
   &__item {
     height: 30%;
     width: calc(100% / 3);
+    margin-top: -1px;
   }
 
   img {
@@ -730,7 +733,7 @@ hr.green{
   background: #f3f3f3;
   height: 270px;
   padding: 30px;
-  margin: 20px -15px 50px;
+  margin: 20px 0 50px;
   & .panel {
     border-radius: 0px;
   }
