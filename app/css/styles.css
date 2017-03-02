@@ -568,6 +568,10 @@ a.nx-button:hover {
     .sideBar .quote .quoteMarks {
       padding: 5px 0; }
 
+.name {
+  padding: 0 10px;
+  color: #80b738; }
+
 .home--text h5 {
   font-weight: 600;
   font-size: 1.1em;
