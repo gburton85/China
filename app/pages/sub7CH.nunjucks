@@ -69,68 +69,67 @@
 
   </div>
 
+
   <div class="row">
-    <div class="col-md-12">
       <div class="contain">
         <div class="greyDiv">
-          <div class="panel col-md-7">
-            <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activities</h2>
-            <div class="list">
-              <ul>
-                <li><p>How woul d your best friend describe you?</p>
-                </li>
-                <li><p>Read the student blog – what have you learned?</p>
-                </li>
-                <li><p>Prospects skills audit (SQ)</p>
-                </li>
-                <li><p>Abilities?</p>
-                </li>
-              </ul>
+          <div class="row">
+            <div class="panel col-md-7">
+              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activities</h2>
+              <div class="list">
+                <ul>
+                  <li><p>How woul d your best friend describe you?</p>
+                  </li>
+                  <li><p>Read the student blog – what have you learned?</p>
+                  </li>
+                  <li><p>Prospects skills audit (SQ)</p>
+                  </li>
+                  <li><p>Abilities?</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-5 featureQuote hidden-xs hidden-sm">
+              <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+                <p><em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
+      mense vel anno.</em></p>
+                <div class="name">
+                  <h5>Wang Jianlin</h5>
+                </div>
             </div>
           </div>
-          <div class="col-md-3 sideBar text-center hidden-xs hidden-sm">
-            <img src="https://randomuser.me/api/portraits/women/17.jpg" class="img-circle profile">
-              <div class="name">
-                <h5>Wang Jianlin</h5>
-              </div>
-          </div>
-          <div class="col-md-2 featureQuote hidden-xs hidden-sm">
-            <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-              <em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-    mense vel anno.</em>
-          </div>
         </div>
+
         <div class="greyDiv">
-          <div class="panel col-md-7">
-            <h2><i class="fa fa-check-square black" aria-hidden="true"></i> Career plan template</h2>
-            <div class="list">
-              <ul>
-                <li><p>How woul d your best friend describe you?</p>
-                </li>
-                <li><p>Read the student blog – what have you learned?</p>
-                </li>
-                <li><p>Prospects skills audit (SQ)</p>
-                </li>
-                <li><p>Abilities?</p>
-                </li>
-              </ul>
+          <div class="row">
+            <div class="panel col-md-7">
+              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> Learning activities</h2>
+              <div class="list">
+                <ul>
+                  <li><p>How woul d your best friend describe you?</p>
+                  </li>
+                  <li><p>Read the student blog – what have you learned?</p>
+                  </li>
+                  <li><p>Prospects skills audit (SQ)</p>
+                  </li>
+                  <li><p>Abilities?</p>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 sideBar text-center hidden-xs hidden-sm">
-            <img src="https://randomuser.me/api/portraits/women/19.jpg" class="img-circle profile">
+            <div class="col-md-5 featureQuote hidden-xs hidden-sm">
+              <img src="images/quote-grey.png" class="img-responsive quoteMarks">
+                <p><em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
+      mense vel anno.</em></p>
               <div class="name">
                 <h5>Wang Jianlin</h5>
               </div>
-          </div>
-          <div class="col-md-2 featureQuote hidden-xs hidden-sm">
-            <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-              <em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-    mense vel anno.</em>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+
+    </div><!--end contain-->
+  </div><!--end row-->
 
 <a href="sub8CH.html" class="nx-button">></a>
 </article>

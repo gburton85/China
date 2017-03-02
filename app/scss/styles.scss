@@ -359,6 +359,7 @@ nav.in li {
    line-height: .9em;
      @media (max-width:768px){
          font-size: 4rem;
+         top: 55%;
        }
      @media (max-width:400px){
        font-size: 3rem;
@@ -386,7 +387,8 @@ nav.in li {
 
 //subheader
 .subHeader {
-  background: url(../images/subHeader.png);
+  background: linear-gradient(to right top, #333, transparent 90%),
+              url(../images/subHeader.png);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -558,6 +560,13 @@ article{
 .contain{
   width: 90%;
   margin: auto;
+}
+
+h1.xl{
+  font-size: 4em;
+  @media (max-width: 600px){
+    font-size: 2em;
+  }
 }
 
 .larger{
@@ -739,9 +748,6 @@ hr.green{
   }
   & .quoteMarks {
     padding-bottom: 10px;
-  }
-  & .featureQuote{
-    padding-left: 0;
   }
   & img.profile{
     border: 10px solid #929291;
