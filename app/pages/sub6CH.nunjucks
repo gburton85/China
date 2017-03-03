@@ -19,30 +19,20 @@
   <div class="row">
     <div class="col-md-9 col-sm-8">
       <div class="contain">
-        <h1><span class="black">6. 查看您</span>的计划</h1>
+        <h1><span class="black">6. Review </span>Your Plan</h1>
         <p class="larger green">
-          Understanding more about yourself will help you to start your career journey AND make you more employable.
+        Now you have a career plan you are well ahead!  Make sure it grows with you.
         </p>
-        <p>Use this section to find out more about yourself, your skills and abilities, personality and strengths.
-        </p>
-        <p>Understanding yourself is the first step in developing your career journey and your career plan. The great news about developing your career plan is that there are no right or wrong answers, as it’s all about you and what you would like to achieve, no matter what your goals are.
-          Vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-  mense vel anno.
+        <p>Review your plan now and then set a calendar reminder to review it again in, for example, two months’ time.  This way, you can update your career plan with your experiences and ongoing research to ensure your plan is a useful tool to keep you on track along your career journey.
         </p>
 
-        <div class="list">
-          <h5>Find out more about yourself, find out:</h5>
-          <ul>
-            <li><p>What interests and motivates you</p>
-            </li>
-            <li><p>Your current skills and abilities</p>
-            </li>
-            <li><p>Your personality type</p>
-            </li>
-            <li><p>Your strengths</p>
-            </li>
-          </ul>
-        </div>
+        <h5>Think about the founder of Alibaba and his career journey...</h5>
+        <p><b class="green">Ma Yun</b> is undoubtedly the most famous mainland entrepreneur today, but the chairman of Alibaba Group is probably better known around the world as Jack Ma.
+        </p>
+        <p>After graduation, Jack applied for 30 different jobs and was rejected by them all.  Jack also applied 10 times for Harvard University in the US and was rejected each time.  Jack began his career as an English lecturer and in 1995, he discovered the internet, resulting in the creation of his successful Alibaba business.
+        </p>
+        <p>But it’s not just about financial success - Jack had clear career goals in mind and stuck to these, no matter what rejections he had or obstacles he faced.
+        </p>
 
         <h2 class="cursive">Use the tasks below to understand more:</h2>
 
@@ -51,17 +41,15 @@
 
     <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
       <div class="sideBar">
-        <img src="https://randomuser.me/api/portraits/women/21.jpg" class="img-circle profile">
+        <img src="images/male1.jpg" class="img-circle profile">
 
-        <div class="name">
-          <h5><b>Wang Jianlin</b></h5>
-          <h5>BA Hons in Business</h5>
-          <p>Oxford University</p>
-        </div>
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
-            <em>Scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-  mense vel anno.</em>
+            <em>Don’t forget to make the most of your career plan whilst you are studying in the UK.  Use it to help you achieve the goals you have set and celebrate when you achieve the steps along to the way to your goal.
+            </em>
+        </div>
+        <div class="name">
+          <h5>Careers consultant</h5>
         </div>
 
       </div>
@@ -74,28 +62,9 @@
       <div class="contain">
         <div class="greyDiv">
           <div class="row">
-            <div class="panel col-md-7">
+            <div class="panel col-md-12">
               <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activities</h2>
-              <div class="list">
-                <ul>
-                  <li><p>How woul d your best friend describe you?</p>
-                  </li>
-                  <li><p>Read the student blog – what have you learned?</p>
-                  </li>
-                  <li><p>Prospects skills audit (SQ)</p>
-                  </li>
-                  <li><p>Abilities?</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-5 featureQuote hidden-xs hidden-sm">
-              <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-                <p><em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-      mense vel anno.</em></p>
-                <div class="name">
-                  <h5>Wang Jianlin</h5>
-                </div>
+
             </div>
           </div>
         </div>
@@ -103,26 +72,16 @@
         <div class="greyDiv">
           <div class="row">
             <div class="panel col-md-7">
-              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> Learning activities</h2>
-              <div class="list">
-                <ul>
-                  <li><p>How woul d your best friend describe you?</p>
-                  </li>
-                  <li><p>Read the student blog – what have you learned?</p>
-                  </li>
-                  <li><p>Prospects skills audit (SQ)</p>
-                  </li>
-                  <li><p>Abilities?</p>
-                  </li>
-                </ul>
-              </div>
+              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan</h2>
+              <p>An important part of developing your career plan is sharing it with others, for example friends, family or contacts you have met.  Networking in this way can often lead to people recommending opportunities for you or connecting you with other people who may be able to help you.
+              </p>
             </div>
             <div class="col-md-5 featureQuote hidden-xs hidden-sm">
               <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-                <p><em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-      mense vel anno.</em></p>
+                <p><em>Keep an open mind about what you are going to do in the future, because in university you will be exposed to many different opportunities, so your interests might also change!
+                </em></p>
               <div class="name">
-                <h5>Wang Jianlin</h5>
+                <h5>Chinese undergraduate</h5>
               </div>
             </div>
           </div>

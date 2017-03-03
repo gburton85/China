@@ -322,7 +322,7 @@ nav.in li {
     color: #fff; }
 
 .subHeader {
-  background: linear-gradient(to right top, #333, transparent 90%), url(../images/subHeader.png);
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/subheader.png);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -437,8 +437,11 @@ article {
     color: #80b738; }
     article .list p {
       color: #000; }
-    article .list h4, article .list h5 {
-      color: #80b738; }
+      article .list p a {
+        color: #000;
+        text-decoration: underline; }
+        article .list p a:hover {
+          color: #80b738; }
 
 .contain {
   width: 90%;
@@ -594,8 +597,10 @@ hr.green {
 .greyDiv {
   background: #f3f3f3;
   height: 270px;
-  padding: 30px;
-  margin: 20px 0 50px; }
+  padding: 30px 30px 5px;
+  margin: 20px 0 50px;
+  position: relative;
+  height: auto; }
   .greyDiv .panel {
     border-radius: 0px; }
   .greyDiv .quoteMarks {

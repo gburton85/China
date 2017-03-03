@@ -19,30 +19,22 @@
   <div class="row">
     <div class="col-md-9 col-sm-8">
       <div class="contain">
-        <h1><span class="black">4. 创建您自己</span>创建您自己</h1>
+        <h1><span class="black">4. Create Your </span> Own Career Plan</h1>
         <p class="larger green">
-          Understanding more about yourself will help you to start your career journey AND make you more employable.
+          It is time to start creating your own career plan!
         </p>
-        <p>Use this section to find out more about yourself, your skills and abilities, personality and strengths.
+        <p>A good place to start is to think about your career goal.  What interests you? What doesn’t interest you?  Where would you like to be in 5 years or 10 years’ time?  Are you thinking about a career in industry? Do you want to be an employee in a big company, or to be running your own company?
         </p>
-        <p>Understanding yourself is the first step in developing your career journey and your career plan. The great news about developing your career plan is that there are no right or wrong answers, as it’s all about you and what you would like to achieve, no matter what your goals are.
-          Vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-  mense vel anno.
+        <p>Think about <b class="green">where you are now</b>.  How are you going to reach your goal?  This may be difficult to do, so think about how you can break this into small steps you can take.
         </p>
+        <p><b class="green">Who</b> around you can help you achieve your goal?  Do you know anyone doing a job that you would like to have?  Why not meet with them to find out more about their career journey, their skills and abilities?
+        </p>
+        <p>Do your research about <b class="green">your options</b>. What are the best options for you now?  You don’t need to know everything about your options now, you just need to starting thinking about them.
+        </p>
+        <p class="larger green">What’s stopping you from reaching your goal? </p>
 
-        <div class="list">
-          <h5>Find out more about yourself, find out:</h5>
-          <ul>
-            <li><p>What interests and motivates you</p>
-            </li>
-            <li><p>Your current skills and abilities</p>
-            </li>
-            <li><p>Your personality type</p>
-            </li>
-            <li><p>Your strengths</p>
-            </li>
-          </ul>
-        </div>
+        <p>It’s worth taking time to think and talk about the potential barriers for you.  This might be to do with costs, confidence, and time.  Whatever the barrier is, think about ways in which this barrier could be overcome.
+        </p>
 
         <h2 class="cursive">Use the tasks below to understand more:</h2>
 
@@ -51,17 +43,15 @@
 
     <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
       <div class="sideBar">
-        <img src="https://randomuser.me/api/portraits/women/21.jpg" class="img-circle profile">
+        <img src="images/female1.jpg" class="img-circle profile">
 
-        <div class="name">
-          <h5><b>Wang Jianlin</b></h5>
-          <h5>BA Hons in Business</h5>
-          <p>Oxford University</p>
-        </div>
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
-            <em>Scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-  mense vel anno.</em>
+            <em>Once I started to put all my findings and research into the career plan template, it soon became clear about what I needed to make happen next on my career journey.  Building my career plan over a series of steps and activities has really helped me, as I didn’t know anything about career planning until doing this course.
+            </em>
+        </div>
+        <div class="name">
+          <h5>Chinese undergraduate</h5>
         </div>
 
       </div>
@@ -74,28 +64,9 @@
       <div class="contain">
         <div class="greyDiv">
           <div class="row">
-            <div class="panel col-md-7">
-              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activities</h2>
-              <div class="list">
-                <ul>
-                  <li><p>How woul d your best friend describe you?</p>
-                  </li>
-                  <li><p>Read the student blog – what have you learned?</p>
-                  </li>
-                  <li><p>Prospects skills audit (SQ)</p>
-                  </li>
-                  <li><p>Abilities?</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-5 featureQuote hidden-xs hidden-sm">
-              <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-                <p><em>Atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
-      mense vel anno.</em></p>
-                <div class="name">
-                  <h5>Wang Jianlin</h5>
-                </div>
+            <div class="panel col-md-12">
+              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity</h2>
+
             </div>
           </div>
         </div>
@@ -103,7 +74,7 @@
         <div class="greyDiv">
           <div class="row">
             <div class="panel col-md-7">
-              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> Learning activities</h2>
+              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> Career plan template</h2>
               <div class="list">
                 <ul>
                   <li><p>How woul d your best friend describe you?</p>
