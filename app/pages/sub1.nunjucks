@@ -52,7 +52,7 @@ mense vel anno.
 
   <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
     <div class="sideBar">
-      <img src="images/male6.jpg" class="img-circle profile">
+      <img src="images/female1.png" class="img-circle profile">
 
       <div class="quote">
         <img src="images/quote-green.png" class="img-responsive quoteMarks">
@@ -60,7 +60,7 @@ mense vel anno.
           </em>
       </div>
       <div class="name">
-        <h5>Chinese undergraduate student</h5>
+        <h5>Undergraduate student</h5>
       </div>
 
     </div>
@@ -74,7 +74,6 @@ mense vel anno.
         <div class="row">
           <div class="panel col-md-12">
             <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity</h2>
-            <iframe src="https://h5p.org/h5p/embed/50281" width="1090" height="638" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
           </div>
         </div>
       </div>

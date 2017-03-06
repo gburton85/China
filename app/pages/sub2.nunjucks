@@ -50,14 +50,14 @@
 
     <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
       <div class="sideBar">
-        <img src="images/male5.jpg" class="img-circle profile">
+        <img src="images/female2.png" class="img-circle profile">
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
             <em>The thought of putting together a career plan sounded overwhelming at first, but working through these steps has made career planning not only easy, but also really enjoyable.  I’m now well on my way to knowing about the types of roles I do and don’t like which has also really helped me to focus on my studies</em>
         </div>
         <div class="name">
-          <h5>Chinese Alumni</h5>
+          <h5>Alumni</h5>
         </div>
 
       </div>
