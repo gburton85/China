@@ -322,7 +322,7 @@ nav.in li {
     color: #fff; }
 
 .subHeader {
-  background: linear-gradient(to right top, #333, transparent 90%), url(../images/subheader.png);
+  background: linear-gradient(to right top, #333, transparent 90%), url(../images/subheader.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -602,7 +602,8 @@ hr.green {
   position: relative;
   height: auto; }
   .greyDiv .panel {
-    border-radius: 0px; }
+    border-radius: 0px;
+    float: left; }
   .greyDiv .quoteMarks {
     padding-bottom: 10px; }
   .greyDiv img.profile {
@@ -610,3 +611,32 @@ hr.green {
     max-width: 150px; }
   .greyDiv .name {
     color: #333; }
+
+button {
+  float: right;
+  margin-bottom: 10px;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #8cbe49;
+  color: #8cbe49;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease; }
+  @media (max-width: 800px) {
+    button {
+      float: left; } }
+  button:hover {
+    color: white;
+    background: #8cbe49; }
+  button:active {
+    letter-spacing: 2px; }
+
+.h5p-embedded {
+  margin: 20px 0; }

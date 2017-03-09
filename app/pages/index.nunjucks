@@ -27,16 +27,16 @@
         <h1 class="xl">Careers information for Chinese students</h1>
 
         <ul class="larger list">
-          <li><p>Make the most of your time at university in the UK.</p></li>
-          <li><p>Understand yourself and your dreams and goals.</p></li>
-          <li><p>Make yourself more employable.</p></li>
+          <li><p>Make the most of your time at university in the UK</p></li>
+          <li><p>Understand yourself and your dreams and goals</p></li>
+          <li><p>Make yourself more employable</p></li>
         </ul>
 
         <h3 class="green">Get ahead on your career journey.</h3>
 
         <div class="home--text">
 
-          <p>You are about to start an amazing journey that will provide you with new knowledge, opportunities and experiences, as well the chance to make new friends and explore a different part of the world.
+          <p>Studying in the UK is the start of an amazing journey that will provide you with knowledge, opportunities and experiences, as well the chance to make new friends and explore a different area of the world.
           </p>
           <p>Making the most of your time in the UK is an important part of your experience and one of the best ways you can do this is to get ahead, and get started on your career journey as early as you can.
           </p>
@@ -52,7 +52,7 @@
 
     <div class="col-md-3 col-sm-4"><!--side col-->
       <div class="sideBar">
-        <img src="images/male1.png" class="img-circle profile">
+        <img src="https://randomuser.me/api/portraits/women/85.jpg" class="img-circle profile">
 
         <div class="name">
           <h5>Postgraduate student</h5>

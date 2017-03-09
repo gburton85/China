@@ -388,7 +388,7 @@ nav.in li {
 //subheader
 .subHeader {
   background: linear-gradient(to right top, #333, transparent 90%),
-              url(../images/subheader.png);
+              url(../images/subheader.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -756,6 +756,7 @@ hr.green{
   height: auto;
   & .panel {
     border-radius: 0px;
+    float: left;
   }
   & .quoteMarks {
     padding-bottom: 10px;
@@ -767,4 +768,44 @@ hr.green{
   & .name {
     color: #333;
   }
+}
+
+//button
+$green: #8cbe49;
+$gray: #bbbbbb;
+
+button {
+  float: right;
+  @media (max-width: 800px){
+    float: left;
+  }
+  margin-bottom:10px;
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: #fff;
+  border: 2px solid $green;
+  color:$green;
+  letter-spacing:1px;
+  text-shadow:0;
+  font:{
+    size:12px;
+    weight:bold;
+  }
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &:hover {
+    color:white;
+    background: $green;
+  }
+  &:active {
+    letter-spacing: 2px ;
+  }
+}
+
+//h5p
+.h5p-embedded{
+  margin: 20px 0;
 }
