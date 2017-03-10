@@ -1,0 +1,60 @@
+<!-- nextsteps.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="contact.html">EN</a></li>
+    <li><a href="contactCH.html">CH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-9 col-sm-8">
+      <div class="contain">
+        <h1><span class="black">9. </span>Contact</h1>
+        <p class="larger">
+          For more information about career planning and the support available to you, please contact your university’s careers service and they will be able to advise you on the services and resources they have available for you.
+        </p>
+
+        <p>This e-learning resource has been created by the University of Warwick, UK, through funding from the UK Government FCO Prosperity Fund.
+        </p>
+
+        <p>The University of Warwick, together with Peking University, has also created a new Innovation and Entrepreneurship e-learning resource for Chinese students studying in the UK – website link
+        </p>
+
+        <h3>Feedback</h3>
+        <p>Thank you very much for your time and interest in accessing the Career Planning e-learning resource.
+        </p>
+        <p>We would welcome your feedback on this course - <a href="mailto:careers@warwick.ac.uk" class="green">careers@warwick.ac.uk</a>
+        </p>
+
+
+      </div><!-- end contian-->
+  </div> <!--end col-->
+
+    <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
+      <div class="sideBar">
+        <img src="https://randomuser.me/api/portraits/women/15.jpg" class="img-circle profile">
+
+        <div class="quote">
+          <img src="images/quote-green.png" class="img-responsive quoteMarks">
+            <em>Use your university website and check the information regularly to avoid missing some good opportunities.</em>
+        </div>
+        <div class="name">
+          <h5>Undergraduate student</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</article>
+
+{% endblock %}

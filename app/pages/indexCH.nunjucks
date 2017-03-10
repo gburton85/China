@@ -80,31 +80,31 @@
 
   <div class="masonry">
   <div class="masonry__item masonry__item--1">
-    <a href="sub1CH.html"><img src="images/1.png"/></a>
+    <a href="getaheadCH.html"><img src="images/1.png"/></a>
   </div>
   <div class="masonry__item masonry__item--2">
-    <a href="sub2CH.html"><img src="images/2.png"/></a>
+    <a href="getacareerplanCH.html"><img src="images/2.png"/></a>
   </div>
   <div class="masonry__item masonry__item--3">
-    <a href="sub3CH.html"><img src="images/3.png"/></a>
+    <a href="optionsCH.html"><img src="images/3.png"/></a>
   </div>
   <div class="masonry__item masonry__item--4">
-    <a href="sub4CH.html"><img src="images/4.png"/></a>
+    <a href="createcareerplanCH.html"><img src="images/4.png"/></a>
   </div>
   <div class="masonry__item masonry__item--5">
-    <a href="sub5CH.html"><img src="images/5.png"/></a>
+    <a href="yourskillsCH.html"><img src="images/5.png"/></a>
   </div>
   <div class="masonry__item masonry__item--6">
-    <a href="sub6CH.html"><img src="images/6.png"/></a>
+    <a href="reviewyourplanCH.html"><img src="images/6.png"/></a>
   </div>
   <div class="masonry__item masonry__item--7">
-    <a href="sub7CH.html"><img src="images/7.png"/></a>
+    <a href="nextstepsCH.html"><img src="images/7.png"/></a>
   </div>
   <div class="masonry__item masonry__item--8">
-    <a href="sub8CH.html"><img src="images/8.png"/></a>
+    <a href="resourcesCH.html"><img src="images/8.png"/></a>
   </div>
   <div class="masonry__item masonry__item--9">
-    <a href="sub9CH.html"><img src="images/9.png"/></a>
+    <a href="contactCH.html"><img src="images/9.png"/></a>
   </div>
 
 </div>

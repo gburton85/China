@@ -8,15 +8,15 @@
   <nav id="nav" class="out">
     <ul>
       <li><a href="index.html"><span class="nav-label">Home</span></a></li>
-      <li><a href="sub1.html"><span class="nav-label">1. Get ahead</span></a></li>
-      <li><a href="sub2.html"><span class="nav-label">2. Get a plan</span></a></li>
-      <li><a href="sub3.html"><span class="nav-label">3. Your options</span></a></li>
-      <li><a href="sub4.html"><span class="nav-label">4. Your plan</span></a></li>
-      <li><a href="sub5.html"><span class="nav-label">5. Your skills</span></a></li>
-      <li><a href="sub6.html"><span class="nav-label">6. Review</span></a></li>
-      <li><a href="sub7.html"><span class="nav-label">7. Next steps</span></a></li>
-      <li><a href="sub8.html"><span class="nav-label">8. Resources</span></a></li>
-      <li><a href="sub9.html"><span class="nav-label">9. Contact</span></a></li>
+      <li><a href="getahead.html"><span class="nav-label">1. Get ahead</span></a></li>
+      <li><a href="getacareerplan.html"><span class="nav-label">2. Get a plan</span></a></li>
+      <li><a href="options.html"><span class="nav-label">3. Your options</span></a></li>
+      <li><a href="createcareerplan.html"><span class="nav-label">4. Your plan</span></a></li>
+      <li><a href="yourskills.html"><span class="nav-label">5. Your skills</span></a></li>
+      <li><a href="reviewyourplan.html"><span class="nav-label">6. Review</span></a></li>
+      <li><a href="nextsteps.html"><span class="nav-label">7. Next steps</span></a></li>
+      <li><a href="resources.html"><span class="nav-label">8. Resources</span></a></li>
+      <li><a href="contact.html"><span class="nav-label">9. Contact</span></a></li>
 
     </ul>
   </nav><!--end nav-->
