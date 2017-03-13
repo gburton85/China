@@ -14,39 +14,39 @@
   </ul>
 </div>
 
-<article>
-  
+<article class="ch">
+
   <div class="row">
     <div class="col-md-9 col-sm-8">
       <div class="contain">
-        <h1><span class="black">1. Get</span> Ahead</h1>
+        <h1><span class="black">1. 提前</span>规划</h1>
         <p class="larger green">
-          Understanding yourself is the first step in developing your career journey and your career plan.
+          自我理解可以在职业旅程中为自己带来帮助并使你更具就业竞争力
         </p>
-        <p class="larger">The good news about developing your career journey is that there are no right or wrong answers, as it’s all about you and what you would like to achieve, no matter what your goals are or where you’d like to be.  Understanding yourself is a very important and exciting first step in your journey.
+        <p class="larger">值得庆幸的是，在制订自己的职业旅程时，没有正确或错误的答案，不管你的目标是什么或者你希望去哪个地方，一切都围绕你自己以及你希望实现的目标来开展。自我理解是你旅程中具有重要意义且令人激动的第一步。
         </p>
-        <p>To understand yourself you need to be able to reflect on your experiences and challenge yourself.  This may not be easy but will help you on your career journey.  Being able to reflect is an important part of learning and it is a useful skill when you start your university career when you are expected to become an independent learner.
+        <p>要自我理解，你需要能够反思自己的经历，并自我挑战。这可能并不容易做到，但将为你的职业旅程提供帮助。在大学生涯之初，你需要成为一名独立的学习者，此时，能够反思就是学习中一个重要的部分，也是一项有用的技能。
         </p>
 
-        <p><em>"Career planning is important to both experienced and new starters in the workplace. Determining your short and long-term goals and efficiently targeting your efforts all help you to improve the happiness of your life"
-        </em> <b>- Chinese employer</b></p>
+        <p><em>"职业规划对工作场所的老手和新手都非常重要。确定自己的长短期目标，并高效地找准努力的方向，这一切有助于你提升对自己生活的幸福感。"
+        </em> <b> 中国雇主</b></p>
 
-        <h2 class="cursive">Use the tasks below to understand more:</h2>
+        <h2 class="cursive">自我理解是制订职业旅程和职业计划的第一步。</h2>
 
       </div><!-- end contian-->
   </div> <!--end col-->
 
     <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
       <div class="sideBar">
-        <img src="https://randomuser.me/api/portraits/men/45.jpg" class="img-circle profile">
+        <img src="https://randomuser.me/api/portraits/women/80.jpg" class="img-circle profile">
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
-            <em>Understanding more about myself has really helped me to work out why I have a natural preference for creative thinking and social situations.   I can now use this knowledge to help me find a job role in a creative industry.  I might even start my own business now!
+            <em>加深对自己的了解，这确实帮助我想清楚了为什么我对创造性思维和社会情境有一种自然而然的偏好。现在，我可以使用这一知识来帮助自己在创造性行业中找到一份工作。我甚至现在就可以自己开始创业！
             </em>
         </div>
         <div class="name">
-          <h5>Undergraduate student</h5>
+          <h5>中国本科生</h5>
         </div>
 
       </div>
@@ -59,11 +59,11 @@
         <div class="greyDiv">
           <div class="row">
             <div class="panel col-md-12">
-              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity </h2>
-              <p><span class="larger">What type of a person are you? </span>
-                Everyone has their own unique attributes, and this activity will help you identify what your unique attributes are.  Do you identify with any of these students?  What attributes do you have?
+              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> 学习活动</h2>
+              <p><span class="larger">你是什么样的人？</span>
+                每个人都有自己独特的属性，这项活动将帮助你确定你的独特属性是什么。你是否与这些学生中的任何人产生共鸣？你具有什么属性？
               </p>
-              <a href="1_understandingSelf.html"><button id="button">Start activity</button></a>
+              <a href="h5p_understandingSelfCH.html"><button id="button">开始活动</button></a>
             </div>
           </div>
         </div>
@@ -71,13 +71,12 @@
         <div class="greyDiv">
           <div class="row">
             <div class="panel col-md-12">
-              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan
+              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> 我的职业计划模板
                 </h2>
-              <p>To help you create your own unique career plan, use our <a href="docs/1.GetAhead_Career_Plan_Template.docx">downloadable template</a> to record your own thoughts and plan your next steps.  Using this plan will ensure that you are very well prepared for your UK experience.
+              <p>为了帮助自己编制独特的职业计划，请使用这份可下载模板来记录你的想法，并对接下来的步骤进行规划。使用此计划将确保你为自己的英国体验做好充分准备。
               </p>
-              <p><span class="green">Section 1</span> of the Career Plan is all about you:  what kind of person are you, what motivates you and what is important to you in your future career?
-              </p>
-              <a href="docs/1.GetAhead_Career_Plan_Template.docx"><button id="button">Get Template</button></a>
+              <p><span class="green">职业计划第1</span>部分的所有内容都和你自己有关：你是什么样的人？是什么在激励着你？在你未来的职业中，什么东西对你而言比较重要？</p>
+              <a href="docs/1Get_Ahead_Career_Plan_Template.docx"><button id="button">获取模板</button></a>
           </div>
         </div>
 

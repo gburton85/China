@@ -50,7 +50,7 @@
 
     <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
       <div class="sideBar">
-        <img src="images/male5.jpg" class="img-circle profile">
+        <img src="https://randomuser.me/api/portraits/men/92.jpg" class="img-circle profile">
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
