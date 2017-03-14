@@ -18,7 +18,7 @@ window.addEventListener('resize', resize);
 function resize() {
   windowHeight = window.innerHeight;
   windowWidth = window.innerWidth;
-  fontSize = windowHeight*0.08;
+  fontSize = windowHeight*0.05;
   headingSize = windowWidth*0.1;
   if(headingSize > windowHeight*0.3) headingSize = windowHeight*0.3;
 
