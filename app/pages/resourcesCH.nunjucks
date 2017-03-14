@@ -30,15 +30,13 @@
       <div class="sideBar">
         <img src="https://randomuser.me/api/portraits/women/35.jpg" class="img-circle profile">
 
-        <div class="name">
-          <h5><b>Wang Jianlin</b></h5>
-          <h5>BA Hons in Business</h5>
-          <p>Oxford University</p>
-        </div>
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
             <em>Scriptor abhinc annos centum qui decidit, inter perfectos veteresque referri debet an inter vilis atque novos? Excludat iurgia finis, “Est vetus atque probus, centum qui perficit annos.” Quid, qui deperiit minor uno
   mense vel anno.</em>
+        </div>
+        <div class="name">
+          <h5>Wang Jianlin</h5>
         </div>
 
       </div>

@@ -34,8 +34,6 @@
         <p>But it’s not just about financial success - Jack had clear career goals in mind and stuck to these, no matter what rejections he had or obstacles he faced.
         </p>
 
-        <h2 class="cursive">Use the tasks below to understand more:</h2>
-
       </div><!-- end contian-->
   </div> <!--end col-->
 
@@ -60,31 +58,22 @@
 
   <div class="row">
       <div class="contain">
-        <div class="greyDiv">
-          <div class="row">
-            <div class="panel col-md-12">
-              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activities</h2>
 
-            </div>
-          </div>
+        <div class="well">
+              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a href="#"><button id="button">Start activity</button></a>
         </div>
 
-        <div class="greyDiv">
-          <div class="row">
-            <div class="panel col-md-7">
-              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan</h2>
-              <p>An important part of developing your career plan is sharing it with others, for example friends, family or contacts you have met.  Networking in this way can often lead to people recommending opportunities for you or connecting you with other people who may be able to help you.
+        <div class="well">
+              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan
+                </h2>
+              <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
               </p>
-            </div>
-            <div class="col-md-5 featureQuote hidden-xs hidden-sm">
-              <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-                <p><em>Keep an open mind about what you are going to do in the future, because in university you will be exposed to many different opportunities, so your interests might also change!
-                </em></p>
-              <div class="name">
-                <h5>Chinese undergraduate</h5>
-              </div>
-            </div>
-          </div>
+              <p><span class="green">Section 6</span> of the <a href="docs/6Get_Ahead_Career_Plan_Template.docx">Career Plan</a> is ....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a href="docs/6Get_Ahead_Career_Plan_Template.docx"><button id="button">Get Template</button></a>
         </div>
 
     </div><!--end contain-->

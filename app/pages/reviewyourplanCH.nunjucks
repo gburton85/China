@@ -19,37 +19,34 @@
   <div class="row">
     <div class="col-md-9 col-sm-8">
       <div class="contain">
-        <h1><span class="black">6. Review </span>Your Plan</h1>
+        <h1><span class="black">7. Your</span> Next Steps</h1>
         <p class="larger green">
-        Now you have a career plan you are well ahead!  Make sure it grows with you.
+          Congratulations, you’ve nearly completed developing your career plan!
         </p>
-        <p>Review your plan now and then set a calendar reminder to review it again in, for example, two months’ time.  This way, you can update your career plan with your experiences and ongoing research to ensure your plan is a useful tool to keep you on track along your career journey.
+        <p>A career plan helps you to understand more about yourself, your goals and have created your own career plan.  Use this new knowledge and your career plan to help you make the most of your time as a student in the UK.
         </p>
-
-        <h5>Think about the founder of Alibaba and his career journey...</h5>
-        <p><b class="green">Ma Yun</b> is undoubtedly the most famous mainland entrepreneur today, but the chairman of Alibaba Group is probably better known around the world as Jack Ma.
-        </p>
-        <p>After graduation, Jack applied for 30 different jobs and was rejected by them all.  Jack also applied 10 times for Harvard University in the US and was rejected each time.  Jack began his career as an English lecturer and in 1995, he discovered the internet, resulting in the creation of his successful Alibaba business.
-        </p>
-        <p>But it’s not just about financial success - Jack had clear career goals in mind and stuck to these, no matter what rejections he had or obstacles he faced.
+        <p>You will also have a better understanding of how you can help yourself to be more employable when you graduate and have a greater awareness of the skills you will need in the future, no matter what your chosen career path is.
         </p>
 
-        <h2 class="cursive">Use the tasks below to understand more:</h2>
+        <p>Remember that your career plan is something that will change over time as you gain more knowledge and experience. Don’t forget to keep reviewing your career plan – you may find it helpful to go back through this module after a period of time to help you refine your plan and see where you are on your journey.
+        </p>
+        <p>Use your career plan to help you achieve the goals and to celebrate when you’ve achieved your aims!
+        </p>
 
       </div><!-- end contian-->
   </div> <!--end col-->
 
     <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
       <div class="sideBar">
-        <img src="images/male1.jpg" class="img-circle profile">
+        <img src="https://randomuser.me/api/portraits/women/12.jpg" class="img-circle profile">
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
-            <em>Don’t forget to make the most of your career plan whilst you are studying in the UK.  Use it to help you achieve the goals you have set and celebrate when you achieve the steps along to the way to your goal.
+            <em>Most large graduate programmes recruit their top talent one year in advance, this is great for students as they are able to finish their studies without the pressures of looking for a job.
             </em>
         </div>
         <div class="name">
-          <h5>Careers consultant</h5>
+          <h5>Employer</h5>
         </div>
 
       </div>
@@ -60,31 +57,21 @@
 
   <div class="row">
       <div class="contain">
-        <div class="greyDiv">
-          <div class="row">
-            <div class="panel col-md-12">
-              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activities</h2>
-
-            </div>
-          </div>
+        <div class="well">
+              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a href="#"><button id="button">Start activity</button></a>
         </div>
 
-        <div class="greyDiv">
-          <div class="row">
-            <div class="panel col-md-7">
-              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan</h2>
-              <p>An important part of developing your career plan is sharing it with others, for example friends, family or contacts you have met.  Networking in this way can often lead to people recommending opportunities for you or connecting you with other people who may be able to help you.
+        <div class="well">
+              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan
+                </h2>
+              <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
               </p>
-            </div>
-            <div class="col-md-5 featureQuote hidden-xs hidden-sm">
-              <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-                <p><em>Keep an open mind about what you are going to do in the future, because in university you will be exposed to many different opportunities, so your interests might also change!
-                </em></p>
-              <div class="name">
-                <h5>Chinese undergraduate</h5>
-              </div>
-            </div>
-          </div>
+              <p><span class="green">Complete</span> <a href="docs/7Get_Ahead_Career_Plan_Template.docx">Career Plan</a> is ....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a href="docs/7Get_Ahead_Career_Plan_Template.docx"><button id="button">Get Template</button></a>
         </div>
 
     </div><!--end contain-->

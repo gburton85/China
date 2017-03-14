@@ -56,28 +56,21 @@
 
   <div class="row">
       <div class="contain">
-        <div class="greyDiv">
-          <div class="row">
-            <div class="panel col-md-12">
+        <div class="well">
               <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> 学习活动</h2>
               <p><span class="larger">你是什么样的人？</span>
                 每个人都有自己独特的属性，这项活动将帮助你确定你的独特属性是什么。你是否与这些学生中的任何人产生共鸣？你具有什么属性？
               </p>
               <a href="h5p_understandingSelfCH.html"><button id="button">开始活动</button></a>
-            </div>
-          </div>
         </div>
 
-        <div class="greyDiv">
-          <div class="row">
-            <div class="panel col-md-12">
+        <div class="well">
               <h2><i class="fa fa-check-square black" aria-hidden="true"></i> 我的职业计划模板
                 </h2>
               <p>为了帮助自己编制独特的职业计划，请使用这份可下载模板来记录你的想法，并对接下来的步骤进行规划。使用此计划将确保你为自己的英国体验做好充分准备。
               </p>
               <p><span class="green">职业计划第1</span>部分的所有内容都和你自己有关：你是什么样的人？是什么在激励着你？在你未来的职业中，什么东西对你而言比较重要？</p>
               <a href="docs/1Get_Ahead_Career_Plan_Template.docx"><button id="button">获取模板</button></a>
-          </div>
         </div>
 
     </div><!--end contain-->

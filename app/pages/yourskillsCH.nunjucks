@@ -50,7 +50,7 @@
 
     <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
       <div class="sideBar">
-        <img src="images/female3.jpg" class="img-circle profile">
+        <img src="https://randomuser.me/api/portraits/women/70.jpg" class="img-circle profile">
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
@@ -58,52 +58,33 @@
             </em>
         </div>
         <div class="name">
-          <h5>Chinese alumni</h5>
+          <h5>Alumni</h5>
         </div>
 
       </div>
     </div>
 
-  </div>
+  </div><!--end row-->
 
 
   <div class="row">
       <div class="contain">
-        <div class="greyDiv">
-          <div class="row">
-            <div class="panel col-md-12">
-              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity</h2>
 
-            </div>
-          </div>
+        <div class="well">
+              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a href="h5p_skills.html"><button id="button">Start activity</button></a>
         </div>
 
-        <div class="greyDiv">
-          <div class="row">
-            <div class="panel col-md-7">
-              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> Career plan template</h2>
-              <div class="list">
-                <ul>
-                  <li><p>How woul d your best friend describe you?</p>
-                  </li>
-                  <li><p>Read the student blog – what have you learned?</p>
-                  </li>
-                  <li><p>Prospects skills audit (SQ)</p>
-                  </li>
-                  <li><p>Abilities?</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-5 featureQuote hidden-xs hidden-sm">
-              <img src="images/quote-grey.png" class="img-responsive quoteMarks">
-                <p><em>The workplace is a long-distance race, which needs persistence, patience and attention. Don't expect too much, a perfect long-term career or job cannot be found overnight.
-                </em></p>
-              <div class="name">
-                <h5>Chinese employer</h5>
-              </div>
-            </div>
-          </div>
+        <div class="well">
+              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan
+                </h2>
+              <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
+              </p>
+              <p><span class="green">Section 5</span> of the <a href="docs/5Get_Ahead_Career_Plan_Template.docx">Career Plan</a> is ....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a href="docs/5Get_Ahead_Career_Plan_Template.docx"><button id="button">Get Template</button></a>
         </div>
 
     </div><!--end contain-->
