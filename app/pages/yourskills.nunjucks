@@ -27,7 +27,7 @@
         <p>Thinking about your skills now is really important and a great way to get ahead, as future employers will want to know about your experiences and find out more about the skills you have learned and how these might fit in with their organisation.
         </p>
         <p>Entrepreneurship and innovation skills are important no matter what type of role you go into after your studies. You can find out more about developing your innovation skills and starting your own business on our
-          <a href="#">Innovation & Entrepreneurship Course</a>.
+          <a href="http://www.innovate2getahead.co.uk/">Innovation & Entrepreneurship Course</a>.
         </p>
 
         <div class="list">
@@ -50,7 +50,7 @@
 
     <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
       <div class="sideBar">
-        <img src="https://randomuser.me/api/portraits/women/70.jpg" class="img-circle profile">
+        <img src="https://randomuser.me/api/portraits/women/70.jpg" class="img-circle profile" alt="Quote" title="Quote">
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">

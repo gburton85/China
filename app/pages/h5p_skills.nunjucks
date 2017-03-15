@@ -23,7 +23,7 @@
   </div><!--end col-->
 </div><!--end row-->
 
-<a href="getacareerplan.html" class="nx-button">></a>
+<a href="reviewyourplan.html" class="nx-button">></a>
 </article>
 
 {% endblock %}
