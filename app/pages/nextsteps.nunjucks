@@ -10,7 +10,7 @@
 <div class="lang">
   <ul>
     <li><a href="nextsteps.html">EN</a></li>
-    <li><a href="nextstepsCH.html">CH</a></li>
+    <li><a href="nextstepsCH.html">ZH</a></li>
   </ul>
 </div>
 
@@ -23,22 +23,24 @@
         <p class="larger green">
           Congratulations, you’ve nearly completed developing your career plan!
         </p>
-        <p>A career plan helps you to understand more about yourself, your goals and have created your own career plan.  Use this new knowledge and your career plan to help you make the most of your time as a student in the UK.
+        <p>
+          You’re now well on your way to using career planning to better understand more about yourself and your goals. Use this new knowledge and your career plan to help you make the most of your time as a university student.
         </p>
         <p>You will also have a better understanding of how you can help yourself to be more employable when you graduate and have a greater awareness of the skills you will need in the future, no matter what your chosen career path is.
         </p>
 
         <p>Remember that your career plan is something that will change over time as you gain more knowledge and experience. Don’t forget to keep reviewing your career plan – you may find it helpful to go back through this module after a period of time to help you refine your plan and see where you are on your journey.
         </p>
-        <p>Use your career plan to help you achieve the goals and to celebrate when you’ve achieved your aims!
+        <p>Your career plan will help you achieve the goals and to celebrate when you’ve achieved your aims!
         </p>
+        <h2 class="cursive">Use the activities below to understand more:</h2>
 
       </div><!-- end contian-->
   </div> <!--end col-->
 
     <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
       <div class="sideBar">
-        <img src="https://randomuser.me/api/portraits/women/12.jpg" class="img-circle profile" alt="Quote" title="Quote">
+        <img src="https://randomuser.me/api/portraits/women/27.jpg" class="img-circle profile" alt="Quote" title="Quote">
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
@@ -46,7 +48,7 @@
             </em>
         </div>
         <div class="name">
-          <h5>Employer</h5>
+          <h5>Chinese Employer</h5>
         </div>
 
       </div>
@@ -69,7 +71,7 @@
                 </h2>
               <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
               </p>
-              <p><span class="green">Complete</span> <a href="docs/7Get_Ahead_Career_Plan_Template.docx">Career Plan</a> is ....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p><b>Complete</b> <a href="docs/7Get_Ahead_Career_Plan_Template.docx">Career Plan</a> is ....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <a href="docs/7Get_Ahead_Career_Plan_Template.docx"><button id="button">Get Template</button></a>
         </div>

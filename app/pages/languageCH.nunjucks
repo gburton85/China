@@ -1,0 +1,48 @@
+<!-- options.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="language.html">EN</a></li>
+    <li><a href="languageCH.html">ZH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-9 col-sm-8">
+      <div class="contain">
+        <h1><span class="black">Language</span></h1>
+
+        <p class="larger green">Studying in the UK means that your degree will be taught in the English language and it may also be the only common language between you and students from different nationalities.
+        </p>
+        <p>Whilst you may have been studying English in the classroom, take the time now to develop your English skills further, both your written, reading and spoken skills.
+        </p>
+
+        <hr>
+      </div><!-- end contian-->
+    </div> <!--end col-->
+
+    <div class="col-md-3 col-sm-4">
+      <div class="well links">
+        <ul>
+        <li><a href="http://www.internationalstudents.cam.ac.uk/arriving/pre-arrival-information/online-resources-academic-english">
+          Pre-arrival resources</a></li>
+          <li><a href="https://www.britishcouncil.org/english/academics">Academics</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div><!--end row-->
+
+<a href="options.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

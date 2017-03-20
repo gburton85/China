@@ -752,3 +752,13 @@ button {
 
 .h5p-embedded {
   margin: 20px 0; }
+
+ol {
+  padding-left: 20px; }
+
+.links {
+  margin-top: 40px; }
+
+.subList li {
+  line-height: 1.3em;
+  padding-top: 20px; }

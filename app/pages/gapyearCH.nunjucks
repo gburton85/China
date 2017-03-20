@@ -1,0 +1,51 @@
+<!-- options.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="gapyear.html">EN</a></li>
+    <li><a href="gapyearCH.html">ZH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-9 col-sm-8">
+      <div class="contain">
+        <h1><span class="black">Gap years</span></h1>
+        <p class="larger green">Taking a gap can give you interesting examples of your skills and experiences to talk about during a job interview.
+        </p>
+        <p>Employers will look at hundreds of applications, so you might need to think about how to make your application stand out, and a gap year could be one option.  A ‘gap year’ is a period of time, usually around a year, where you take a break from studying, some students take a gap year before beginning their degree course, whilst others choose to take a gap year after their completing their studies.
+        </p>
+        <p>There are hundreds of different options for what you could do in your gap year, including working, travelling, volunteering, conservation, teaching, learning a new skill and training to be an instructor.  Each person’s gap year will be different and that is what can be appealing to employers, as it can help to differentiate you.
+        </p>
+        <p>As well as giving you interesting examples of your skills and experiences to talk about during a job interview, there are many benefits of taking a well-planned gap year, including; increased maturity, greater "ownership" of the your career path, increased self-awareness, greater global awareness, fluency in a foreign language, and self-confidence.
+        </p>
+        <p>If you choose to take a gap year, it’s important to plan it out and think about what you will gain from this time and how you might apply this experience in the future.
+        </p>
+
+      </div>
+    </div>
+
+      <div class="col-md-3 col-sm-4"><!--side col-->
+        <div class="well links">
+          <h5>Quizzes</h5>
+            <p><a href="https://www.volunteerhq.org/blog/quiz-where-should-you-take-a-gap-year/">Where should you take a gap year?</a></p>
+
+            <p><a href="http://www.quibblo.com/quiz/fOEjTK7/Is-Taking-A-Gap-Year-Right-For-You">Quiz: Is taking a gap year right for you?</a></p>
+        </div>
+
+    </div> <!--end col-->
+  </div><!--end row-->
+
+<a href="optionsCH.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

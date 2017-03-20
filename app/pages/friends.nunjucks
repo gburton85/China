@@ -1,0 +1,43 @@
+<!-- options.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="friends.html">EN</a></li>
+    <li><a href="friendsCH.html">ZH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="contain">
+        <h1><span class="green">Friendships</span></h1>
+
+        <p class="larger">Studying in the UK will provide you with the opportunity to meet people from all over the world!  Many universities in the UK have students from over 150 different countries, giving you amazing opportunities to make new friends, learn about different cultures, languages and gain intercultural communication skills.
+        </p>
+        <p>Intercultural communication enables you to communicate effectively across cultures, which is increasingly important, as the world moves to enabling us all to have more and more contact with people who are culturally different from ourselves.
+        </p>
+        <p>Intercultural communication is a skill desired by many employers and is a skill that comes through your own real-life experiences, as well as studying.
+        </p>
+        <p>As national economies evolve, overlap, and merge, the need to do business in a variety of cultures is a necessity and organisations are increasingly searching for workers who are skilled, flexible, and able to adjust and apply their skills with the tact and sensitivity that will enhance business success internationally.
+        </p>
+        <p>Culture has a large impact on how people conduct business; therefore, intercultural communication skills and awareness are critical for succeeding in an international context.
+        </p>
+
+        <hr>
+      </div><!-- end contian-->
+    </div> <!--end col-->
+  </div><!--end row-->
+
+<a href="options.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

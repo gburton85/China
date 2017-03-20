@@ -1,0 +1,78 @@
+<!-- options.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="internships.html">EN</a></li>
+    <li><a href="internshipsCH.html">ZH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="contain">
+        <h1><span class="black">Internships</span></h1>
+
+        <p class="larger green">Internships come in all shapes and sizes enabling you to work in an organisation for a set period of time.  Internships can be any length, from one week, to an internship lasting twelve months.
+        </p>
+        <p>Internships can be a part of your degree course, or they may be an option you choose to undertake during your university vacations.  An internship can also be an attractive option for you to do after your degree studies.
+        </p>
+        <p>Whatever type of internship you choose, they all offer a great opportunity to develop your employability skills and experience, as well as giving you a chance to try out different industries and find out what you enjoy doing.
+        </p>
+
+        <hr>
+
+        <h4 class="green">Benefits of an internship</h4>
+
+        <ol>
+          <li><b>You gain valuable industry knowledge</b><br>
+          Every career field operates in a different way and demands a separate set of skills and expertise. Gaining insider knowledge at a firm in your career field will help you realize how to properly prepare yourself for future interviews and for your career. Industry experience will also help you decide whether or not you are in the right field for you.
+          </li>
+
+          <li><b>You get your foot in the door at a company in your field</b><br>
+          Spending a few months getting to know a company, the employees and the work expectations will put you in a good position if you ever want to start working for the same firm, or a similar one, in the future.
+          </li>
+
+          <li><b>You can develop your professional skills</b><br>
+          Doing an internship can really develop and improve the professional skills related to your career field on the job. 
+          </li>
+
+          <li><b>You've got something to show a potential employer next time you're in an interview</b><br>
+          An internship gives you the opportunity to take on tasks that may be expected from you at your future job, giving you relevant examples you can show a potential employer.
+          </li>
+
+          <li><b>You may be recruited to work full-time</b><br>
+          An internship is the chance to prove yourself as a potential employee. If there is an entry-level position available, as an intern you are definitely in a competitive position to be considered for the role. In fact, the firm may well be more comfortable hiring someone who is familiar with how the company is run and they can see will fit into their culture.
+          </li>
+
+          <li><b>You'll grow your network of professional contacts</b><br>
+          A major advantage of an internship is that you're able to network and establish relationships with working professionals in your field. Fostering those professional connections can be useful for anything from career advice to a job recommendation. Developing a circle of friends within your career field can also end up being a good support group for when you're feeling frustrated in your career.
+          </li>
+
+          <li><b>Your confidence in professional environments will improve</b><br>
+          An internship offers you a great opportunity to learn about business etiquette and provides you with the confidence of working and communicating in a business environment.
+          </li>
+          <li><b>It's a low-commitment way to test out a job and career path</b><br>
+          When you accept a position in a company, you're generally committing to at least a year working there. An internship demands much less of a time commitment, so you can test out whether you like working for that particular organisation before you commit to applying or joining them.
+          </li>
+
+        </ol>
+
+        <hr>
+
+      </div><!-- end contian-->
+    </div> <!--end col-->
+  </div><!--end row-->
+
+<a href="optionsCH.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

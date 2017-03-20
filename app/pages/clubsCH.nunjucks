@@ -1,0 +1,50 @@
+<!-- options.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="clubs.html">EN</a></li>
+    <li><a href="clubsCH.html">ZH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="contain">
+        <h1><span class="black">Clubs & Societies</span></h1>
+
+        <p class="larger">The main benefit of joining a student club or society is the impact it will have on your social life. You will meet people who share an interest with you and you will widen your social network beyond your course and the people you live with.
+        </p>
+        <p>However, there are also real benefits of joining a student society in terms of your employability - the skills, qualities and knowledge you will gain and be able to offer to prospective employers, to demonstrate how you can successfully adapt to life as a graduate in their organisation.
+        </p>
+        <hr>
+        <h4 class="green">Develop your skills</h4>
+        <p>All societies depend on events for their success, such as meetings, matches, competitions, trips and fundraising events. If you’re an organiser or officer of your society, you will develop lots of experience and expertise in event planning and organisation. From market research, fundraising and budgeting to promotion and actually delivering on the day, there are all kinds of skills which you could use in a job and which an employer would value.
+        </p>
+
+        <h4 class="green">Managing your time</h4>
+        <p>Even if you aren’t an active member of a student society with an administrative position, you will demonstrate a number of qualities simply by becoming a member. Firstly, you will be a team player who is able to show commitment to fellow members of the society.
+        </p>
+        <p>Secondly, by succeeding in your academic work alongside your participation in a society, you will demonstrate time management skills and come across as a well-rounded individual.
+        </p>
+        <p>UK universities have many different Student Societies, including academic, activities, campaigning, cultural, food and drink, media, religious, sports and welfare, so you are sure to find one that suits your different interests.
+        </p>
+        <p>Find out more about the types of societies available at your UK university, often the University Students Union is a good place to start your research.
+        </p>
+        <hr>
+      </div><!-- end contian-->
+    </div> <!--end col-->
+  </div><!--end row-->
+
+<a href="optionsCH.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

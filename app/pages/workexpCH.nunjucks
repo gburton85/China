@@ -1,0 +1,80 @@
+<!-- options.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="workexp.html">EN</a></li>
+    <li><a href="workexpCH.html">ZH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-10 col-sm-10">
+      <div class="contain">
+        <h1><span class="black">Work experience</span></h1>
+
+        <p class="larger">There are a number of different ways of gaining work experience whilst at university:
+        </p>
+
+        <h3>Temporary work</h3>
+
+        <p>Working on campus in a temporary position can look good on your CV, as employers will be impressed that you are able to both study and a manage a job. Temporary positions are often flexible, enabling you to work around your lectures or exams, plus they are paid so can help you to manage your finances!
+        </p>
+        <p>You can find out more about temporary work experience positions and opportunities by contacting your university Careers Service. Many UK universities have their own Unitemps service which provide part-time or full-time temporary paid work assignments – anything from one-hour shifts to full-time work for several months.
+        </p>
+
+        <hr>
+
+        <h3>Volunteering</h3>
+
+        <p>Volunteering is an ideal way to gain experience and skills, alongside contributing your time and energy to support an organisation or project and the local community.
+        </p>
+        <p>As well as giving back to society, volunteering is also a great way to get to know the local area, meet new people and gain experience in a very different setting to that of a UK university.
+        </p>
+        <p>Employers value the benefits of volunteering, as very often the projects you will be involved and the skills you develop, can easily be transferred to the work place.
+        </p>
+
+        <div class="well">
+          <em>“In a competitive job market, prospective employers want to see what makes you different from all the other candidates, and volunteering is a great way of standing out from the crowd. By demonstrating that you take part in meaningful activities in your spare time, you will show an employer that you are a well-rounded person with some interesting life experience.” Employer
+          </em>
+        </div>
+
+        <p>Many UK universities have a team dedicated to supporting student volunteering.  Find out more if your university offers volunteering opportunities and look at the types of projects you might enjoy being involved with.
+        </p>
+        <p>Here are some of the benefits of volunteering shared by students:
+        </p>
+        <div class="well">
+          <p><em>“Being far away from my family has been extremely hard for me. Getting back into volunteering gives me joy that can decrease the amount of loneliness I'm feeling”
+          </em></p>
+          <p><em>“I gained confidence in talking to people of different ages and from different backgrounds”
+          </em></p>
+          <p><em>“Insight into a new career path that I now want to embark on!”
+          </em></p>
+        </div>
+
+      </div><!-- end contian-->
+    </div> <!--end col-->
+
+    <div class="col-md-2 col-sm-2"><!--side col-->
+
+      <div class="list-group links">
+        <a class="list-group-item" href="https://www.unitemps.com/">Unitemps</a>
+        <a class="list-group-item" href="https://www.prospects.ac.uk/jobs-and-work-experience/work-experience-and-internships/work-experience-at-university">Prospects</a>
+        <a class="list-group-item" href="http://www2.warwick.ac.uk/about/community/volunteers/resources/international/">Volunteering</a>
+      </div>
+
+    </div><!-- end row-->
+  </div><!--end row-->
+
+<a href="optionsCH.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

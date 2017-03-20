@@ -1,0 +1,70 @@
+<!-- options.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="travel.html">EN</a></li>
+    <li><a href="travelCH.html">ZH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="contain">
+        <h1><span class="black">Travel in the UK and Europe</span></h1>
+
+        <p class="larger">Anytime you can experience the richness of cultures different from your own — by talking with people of other nationalities, travelling internationally, trying foods from other countries and embracing other educational experiences that fall outside of your comfort zone — you grow and change in positive ways. And this is just the kind of personal development that can help you stand out in the eyes of future employers.
+        </p>
+        <p>The UK university academic year is generally divided up into terms or semesters with breaks of up to several weeks in between.  These breaks offer you the opportunity to use these to travel, not just for relaxation but also to help develop your experiences to boost your CV!
+        </p>
+
+        <hr>
+
+        <h3>Travel offers you a number of benefits including:</h3>
+          <ul class="subList">
+            <li><b>Developing your self-awareness</b><br>
+              Gathering information about the world — seeing different landscapes, experiencing the challenges of certain cultures, listening to the opinions of people in other nations — provides rich learning opportunities, as well as giving you a sense of your own place and purpose and your values and priorities.
+            </li>
+            <li><b>Enhancing your perspective</b><br>
+            Exposure to other lifestyles in other countries can help you to develop your intercultural awareness. Having a broad awareness of how other people live and what other cultures prioritise can trigger ideas and creative thinking.
+            </li>
+            <li><b>Developing independence</b><br>
+            Living and working for any amount of time in a culture that’s different from your own home can help you in a variety of ways. This enriching experience challenges you to open your mind regarding food, friends and basic needs and develops your perspective as a global citizen.
+            </li>
+            <li><b>Strengthening leadership skills</b></br>
+            Being able to talk about your actual experiences, rather than simply what you have learned, adds to your credibility as a potential employee. Travelling can develop your perspective, confidence and conviction that will make it easier to gain the respect of others.
+            </li>
+            <li><b>Demonstrating courage</b><br>
+            Travelling away from the comfort of friends, family and familiar surroundings can be hard, but doing it shows that you are interested in the rest of the world and confident enough in yourself to venture out and discover other parts of the world. This is a character trait that’s very appealing to employers and organisations.
+            </li>
+          </ul>
+
+          <p class="larger">No matter what your life and career goals are, travel can provide important perspectives and help you discover who you are and what are your values.
+          </p>
+
+        <div class="well">
+        <h3>Task</h3>
+        <ul>
+          <li>Make a list of the countries and places you have visited
+          </li>
+          <li>Keep a travel journal, write down what was different and what was similar to your own home and culture
+          </li>
+        </ul>
+        </div>
+
+      </div><!-- end contian-->
+    </div> <!--end col-->
+  </div><!--end row-->
+
+<a href="optionsCH.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

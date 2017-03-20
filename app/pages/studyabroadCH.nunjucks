@@ -1,0 +1,41 @@
+<!-- options.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<!-- Adds the navigation partial -->
+{% include "partials/navigation.nunjucks" %}
+{% include "partials/subheader.nunjucks" %}
+{% include "partials/logo.nunjucks" %}
+<!--content-->
+<div class="lang">
+  <ul>
+    <li><a href="studyabroad.html">EN</a></li>
+    <li><a href="studyabroadCH.html">ZH</a></li>
+  </ul>
+</div>
+
+<article>
+
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="contain">
+        <h1><span class="black">Study Abroad</span></h1>
+
+        <p>By choosing to study abroad in the UK, you are already on the path to gaining many of the benefits of learning in another country including seeing more of the world, developing your language skills, experiencing a different type of way of learning and building your career opportunities.
+        </p>
+        <p>Whilst you are studying in the UK, there may also be opportunities for you to study abroad, as part of your degree course, in another country!  Giving you a double experience!
+        </p>
+        <p>Many UK universities have Study Abroad online resources to help you find out more as a starting point and your university may also have a specific Study Abroad team who can help you further.
+        </p>
+
+        <p class="larger"><a href="http://www.internationalstudent.com/study-abroad/guide/ten-benefits-to-studying-abroad/">
+          10 Benefits to studying abroad</a></p>
+
+      </div><!-- end contian-->
+    </div> <!--end col-->
+  </div><!--end row-->
+
+<a href="optionsCH.html" class="nx-button">></a>
+</article>
+
+{% endblock %}

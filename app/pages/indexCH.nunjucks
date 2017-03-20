@@ -9,7 +9,7 @@
 <div class="lang">
   <ul>
     <li><a href="index.html">EN</a></li>
-    <li><a href="indexCH.html">CH</a></li>
+    <li><a href="indexCH.html">ZH</a></li>
   </ul>
 </div>
 
@@ -52,7 +52,7 @@
     </div><!-- end contian-->
 </div> <!--end col-->
 
-  <div class="col-md-3 col-sm-4"><!--side col-->
+  <div class="col-md-3 col-sm-4 hidden-xs"><!--side col-->
     <div class="sideBar">
       <img src="https://randomuser.me/api/portraits/women/85.jpg" class="img-circle profile" alt="Quote" title="Quote">
 
