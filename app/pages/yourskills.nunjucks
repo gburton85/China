@@ -4,6 +4,7 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigation.nunjucks" %}
+{% set pg5 = true %}
 {% include "partials/subheader.nunjucks" %}
 {% include "partials/logo.nunjucks" %}
 <!--content-->
@@ -80,11 +81,11 @@
         <div class="well">
               <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan
                 </h2>
-              <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
+              <p>Here is the fifth step to help you to think about developing your skills to boost your employability - download the template below and spend some time to go through the questions.
               </p>
-              <p><b>Section 5</b> of the <a href="docs/5Get_Ahead_Career_Plan_Template.docx">Career Plan</a> is ....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p><b>Section 5</b> of the <a href="docs/5DevelopYourSkillsTemplate.docx">Career Plan</a> is all about thinking and planning how you will start to gain the key skills you need to help you get ahead in your career.
               </p>
-              <a href="docs/5Get_Ahead_Career_Plan_Template.docx"><button id="button">Get Template</button></a>
+              <a href="docs/5DevelopYourSkillsTemplate.docx"><button id="button">Get Template</button></a>
         </div>
 
     </div><!--end contain-->

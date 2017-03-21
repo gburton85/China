@@ -4,6 +4,7 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigationCH.nunjucks" %}
+{% set pg7 = true %}
 {% include "partials/subheader.nunjucks" %}
 {% include "partials/logoCH.nunjucks" %}
 <!--content-->
@@ -52,31 +53,7 @@
 
         </div>
       </div>
-
-    </div>
-
-
-    <div class="row">
-        <div class="contain">
-          <div class="well">
-                <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <a href="#"><button id="button">Start activity</button></a>
-          </div>
-
-          <div class="well">
-                <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan
-                  </h2>
-                <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
-                </p>
-                <p><b>Complete</b> <a href="docs/7Get_Ahead_Career_Plan_Template.docx">Career Plan</a> is ....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <a href="docs/7Get_Ahead_Career_Plan_Template.docx"><button id="button">Get Template</button></a>
-          </div>
-
-    </div><!--end contain-->
-  </div><!--end row-->
+    </div><!-- end row-->
 
 <a href="resourcesCH.html" class="nx-button">></a>
 </article>

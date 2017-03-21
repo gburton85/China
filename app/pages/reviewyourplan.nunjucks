@@ -4,6 +4,7 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigation.nunjucks" %}
+{% set pg6 = true %}
 {% include "partials/subheader.nunjucks" %}
 {% include "partials/logo.nunjucks" %}
 <!--content-->
@@ -69,11 +70,11 @@
         <div class="well">
               <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan
                 </h2>
-              <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
+              <p>Here is the final step in developing the beginnings of your career plan - download the template below and spend some time to go through the questions.
               </p>
-              <p><b>Section 6</b> of the <a href="docs/6Get_Ahead_Career_Plan_Template.docx">Career Plan</a> is ....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p><b>Section 6</b> of the <a href="docs/6Review_Your_Career_Plan_Template.docx">Career Plan</a> is a checklist to help you see where you are with your planning and to help you make some future goals so you can track your progress.
               </p>
-              <a href="docs/6Get_Ahead_Career_Plan_Template.docx"><button id="button">Get Template</button></a>
+              <a href="docs/6Review_Your_Career_Plan_Template.docx"><button id="button">Get Template</button></a>
         </div>
 
     </div><!--end contain-->
