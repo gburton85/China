@@ -502,6 +502,13 @@ nav.in li {
     height: 60px;
   }
 }
+.banner1{
+  background: linear-gradient(to right top, #333, transparent 90%),
+              url(../images/banners/1-crop.jpg);
+              background-size: cover;
+              position: relative;
+              background-repeat: no-repeat;
+}
 
 .banner2{
   background: linear-gradient(to right top, #333, transparent 90%),

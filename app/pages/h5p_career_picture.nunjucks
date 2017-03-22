@@ -4,6 +4,7 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigation.nunjucks" %}
+{% set pg2 = true %}
 {% include "partials/subheader.nunjucks" %}
 {% include "partials/logo.nunjucks" %}
 <!--content-->
@@ -13,8 +14,8 @@
 <div class="row">
   <div class="col-md-12">
     <div class="well">
-      <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </h5>
+      <p><b>Your career as a picture – what picture would you chose?</b> It may be useful to think about your career as a picture.  What picture would best describe your career?  Consider the following images and think about how they might represent your career.
+      </p>
     </div>
 
     <div class="h5p-embedded">

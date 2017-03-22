@@ -4,6 +4,7 @@
 {% block content %}
 <!-- Adds the navigation partial -->
 {% include "partials/navigation.nunjucks" %}
+{% set pg5 = true %}
 {% include "partials/subheader.nunjucks" %}
 {% include "partials/logo.nunjucks" %}
 <!--content-->
@@ -13,12 +14,14 @@
 <div class="row">
   <div class="col-md-12">
     <div class="well">
-      <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </h5>
+      <p>Using your time in the UK to develop your skills.  Having a better understanding of how living and studying in the UK will help you gain valuable skills is an important part of your preparation.
+      </p>
+      <p>Click the crosses in the pictures below to learn more about the skills you will develop:
+      </p>
     </div>
 
     <div class="h5p-embedded">
-      <iframe src="https://h5p.org/h5p/embed/50716" width="1090" height="751" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+      <iframe src="https://h5p.org/h5p/embed/60988" width="1090" height="3065" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
     </div>
   </div><!--end col-->
 </div><!--end row-->

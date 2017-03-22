@@ -1,6 +1,9 @@
 <!--subheader.nunjucks-->
 <!--header-->
-  {% if pg2 %}
+  {% if pg1 %}
+    <section id="subheader" class="subHeader banner1">
+    </section>
+  {% elseif pg2 %}
     <section id="subheader" class="subHeader banner2">
     </section>
   {% elseif pg3 %}
