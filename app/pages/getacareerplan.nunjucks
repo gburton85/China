@@ -81,6 +81,14 @@
         </div>
 
         <div class="well">
+              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Jargon buster</h2>
+              <p>
+                Understanding the language of career planning.  Make sure you are familiar with the language and  ideas of career planning; this way you will make the best use of this course:
+                </p>
+              <a href="h5p_jargon.html"><button id="button">Start activity</button></a>
+        </div>
+
+        <div class="well">
               <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan
                 </h2>
               <p>Here is the second step to help you think through where you are and what you can learn from others - download the template below and spend some time to go through the questions.
