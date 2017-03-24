@@ -14,49 +14,49 @@
   </ul>
 </div>
 
-<article>
+<article class="ch">
 
   <div class="row">
     <div class="col-md-9 col-sm-8">
       <div class="contain">
-        <h1><span class="black">3. Research Your</span> Options</h1>
+        <h1><span class="black">3. </span>研究你的选项</h1>
         <p class="larger green">
-          Research your options to boost your employability and make the most of your time in the UK
+          研究自己的选项，从而提升自身的职场竞争力，并好好利用留英的这段时间
         </p>
-        <p>Your time in the UK will open up many opportunities for you, through studying at your UK university and also through your UK cultural experiences.
+        <p>通过在英国的大学学习以及英国的文化体验，你在留英这段时间将为自己带来许多机会。请研究下面一些选项，看看它们对你是否有吸引力：
         </p>
 
         <div class="list">
-          <h5 class="black">As a UK university student, there are many opportunities for you to gain experiences and develop your employability skills:
+          <h5 class="black">作为一名英国留学生，你有很多机会来汲取经验、培养自己的就业技能：
           </h5>
           <ul>
-            <li><p><a href="internshipsCH.html">Internships</a></p>
+            <li><p><a href="internshipsCH.html">实习</a></p>
             </li>
-            <li><p><a href="workexpCH.html">Work experience and volunteering</a></p>
+            <li><p><a href="workexpCH.html">工作经验和志愿者活动</a></p>
             </li>
-            <li><p><a href="gapyearCH.html">Gap Years</a></p>
+            <li><p><a href="gapyearCH.html">空档年</a></p>
             </li>
-            <li><p><a href="studyabroadCH.html">Study abroad</a></p>
+            <li><p><a href="studyabroadCH.html">出国留学</a></p>
             </li>
-            <li><p><a href="clubsCH.html">Clubs and Societies</a></p>
+            <li><p><a href="clubsCH.html">俱乐部和协会</a></p>
             </li>
           </ul>
         </div>
 
         <div class="list">
-          <h5 class="black">Living in the UK will also provide you with many chances to explore UK and Western culture and to use these experiences to enhance your employability skills:
+          <h5 class="black">在英国生活也将为你提供许多机会来探索英国和西方文化，并利用这些体验来强化自己的就业技能：
           </h5>
           <ul>
-            <li><p><a href="languageCH.html">English language</a></p>
+            <li><p><a href="languageCH.html">英语语言</a></p>
             </li>
-            <li><p><a href="travelCH.html">Travel in the UK and Europe</a></p>
+            <li><p><a href="travelCH.html">在英国和欧洲旅游</a></p>
             </li>
-            <li><p><a href="friendsCH.html">Friendships</a></p>
+            <li><p><a href="friendsCH.html">结交好友</a></p>
             </li>
           </ul>
         </div>
 
-        <h2 class="cursive">Use the tasks below to understand more:</h2>
+        <h2 class="cursive">自我理解是制订职业旅程和职业计划的第一步。</h2>
 
       </div><!-- end contian-->
   </div> <!--end col-->
@@ -67,11 +67,11 @@
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
-            <em>Once you are at university you need to start thinking about and looking for a job. All the courses you are going to study are job oriented and keeping your eyes open is quite important.  Don't just keep your head down and study (which IS important), but be aware of opportunities and experiences that interest you.
+            <em>在读大学时，你需要开始考虑并寻找工作。你即将学习的所有课程都以工作为导向，务必要确保自己拥有开阔的眼界，不要仅仅‘两耳不闻窗外事，一心只读圣贤书’（读书当然也很重要），但还要了解自己感兴趣的机会和体验。
             </em>
         </div>
         <div class="name">
-          <h5>Postgraduate student</h5>
+          <h5>中国研究生</h5>
         </div>
 
       </div>
@@ -84,20 +84,20 @@
       <div class="contain">
 
         <div class="well">
-              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity </h2>
+              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> 学习活动</h2>
               <p><b>How can you make the most of your time in the UK?</b> Here’s a case study about Nancy, a Chinese student who came to the UK and secured a graduate job. Read the case study and do the quiz to learn more!
               </p>
-              <a href="h5p_options.html"><button id="button">Start activity</button></a>
+              <a href="h5p_options.html"><button id="button">开始活动</button></a>
         </div>
 
         <div class="well">
-              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan
+              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> 我的职业计划模板
                 </h2>
               <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
               </p>
-              <p><b>Section 3</b> of the <a href="docs/3Research_Your_Options_Template.docx">Career Plan</a> is ....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p><b>Section 3</b> of the <a href="docs/3Research_Your_Options_Template.docx">Career Plan</a> is about thinking about your options and spending time researching these through resources and also by talking with friends, family and other contacts you may have.
               </p>
-              <a href="docs/3Research_Your_Options_Template.docx"><button id="button">Get Template</button></a>
+              <a href="docs/3Research_Your_Options_Template.docx"><button id="button">获取模板</button></a>
         </div>
 
     </div><!--end contain-->

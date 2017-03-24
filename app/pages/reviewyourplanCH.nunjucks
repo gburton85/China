@@ -15,23 +15,25 @@
   </ul>
 </div>
 
-<article>
+<article class="ch">
 
   <div class="row">
     <div class="col-md-9 col-sm-8">
       <div class="contain">
-        <h1><span class="black">7. Your</span> Next Steps</h1>
+        <h1><span class="black">6. </span>回顾你的计划</h1>
         <p class="larger green">
-          Congratulations, you’ve nearly completed developing your career plan!
+        现在，你提前对职业计划进行了规划！回顾你的计划。这样，你的计划就能和你一起成长。
         </p>
-        <p>A career plan helps you to understand more about yourself, your goals and have created your own career plan.  Use this new knowledge and your career plan to help you make the most of your time as a student in the UK.
-        </p>
-        <p>You will also have a better understanding of how you can help yourself to be more employable when you graduate and have a greater awareness of the skills you will need in the future, no matter what your chosen career path is.
+        <p>接下来的一个重要阶段是不时回顾自己的计划，设定一个日历提醒来进行再回顾（例如两个月回顾一次）。这样，你就能用自己的经验和持续研究来更新自己的职业计划，从而确保计划成为一种有益的工具，使你在职业旅程中一帆风顺。
         </p>
 
-        <p>Remember that your career plan is something that will change over time as you gain more knowledge and experience. Don’t forget to keep reviewing your career plan – you may find it helpful to go back through this module after a period of time to help you refine your plan and see where you are on your journey.
+        <h5>想一想阿里巴巴的创办人以及他的职业旅程：
+        </h5>
+        <p>毫无疑问，马云是今日大陆最著名的企业家，但这位阿里巴巴集团的主席在全球范围内更知名的称呼可能是Jack Ma。
         </p>
-        <p>Use your career plan to help you achieve the goals and to celebrate when you’ve achieved your aims!
+        <p>Jack在毕业后申请了30种不同的工作，结果全部遭到拒绝。Jack还10次申请美国哈佛大学，每次都被拒绝。Jack在1995年开始担任英语讲师，他发现了互联网，从而创办了成功的阿里巴巴公司。
+        </p>
+        <p>但他的成功不仅仅是财富意义上的成功——不管面对什么拒绝或障碍，Jack都牢记并孜孜不倦地追求清晰的职业目标。
         </p>
 
       </div><!-- end contian-->
@@ -43,11 +45,10 @@
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
-            <em>Don’t forget to make the most of your career plan whilst you are studying in the UK.  Use it to help you achieve the goals you have set and celebrate when you achieve the steps along to the way to your goal.
-            </em>
+            <em>在英国留学期间，别忘了好好利用你的职业计划。用它来帮助自己实现设定的目标，并在目标实现过程中庆祝每一小步的成功。</em>
         </div>
         <div class="name">
-          <h5>Careers consultant</h5>
+          <h5>大学职业顾问</h5>
         </div>
 
       </div>
@@ -58,21 +59,22 @@
 
   <div class="row">
       <div class="contain">
+
         <div class="well">
-              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Learning activity </h2>
+              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> 学习活动</h2>
               <p><b>Why should I review my career plan?</b> It’s important to make time to review your plan, reflect on your choices, consider other options:
               </p>
-              <a href="h5p_review_plan.html"><button id="button">Start activity</button></a>
+              <a href="h5p_review_plan.html"><button id="button">开始活动</button></a>
         </div>
 
         <div class="well">
-              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> My career plan
+              <h2><i class="fa fa-check-square black" aria-hidden="true"></i> 我的职业计划模板
                 </h2>
-              <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
+              <p>Here is the final step in developing the beginnings of your career plan - download the template below and spend some time to go through the questions.
               </p>
-              <p><b>Complete</b> <a href="docs/7Get_Ahead_Career_Plan_Template.docx">Career Plan</a> is ....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p><b>Section 6</b> of the <a href="docs/6Review_Your_Career_Plan_Template.docx">Career Plan</a> is a checklist to help you see where you are with your planning and to help you make some future goals so you can track your progress.
               </p>
-              <a href="docs/7Get_Ahead_Career_Plan_Template.docx"><button id="button">Get Template</button></a>
+              <a href="docs/6Review_Your_Career_Plan_Template.docx"><button id="button">获取模板</button></a>
         </div>
 
     </div><!--end contain-->

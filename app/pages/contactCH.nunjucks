@@ -3,10 +3,10 @@
 
 {% block content %}
 <!-- Adds the navigation partial -->
-{% include "partials/navigation.nunjucks" %}
+{% include "partials/navigationCH.nunjucks" %}
 {% set pg9 = true %}
 {% include "partials/subheader.nunjucks" %}
-{% include "partials/logo.nunjucks" %}
+{% include "partials/logoCH.nunjucks" %}
 <!--content-->
 <div class="lang">
   <ul>
@@ -15,25 +15,23 @@
   </ul>
 </div>
 
-<article>
+<article class="ch">
 
   <div class="row">
     <div class="col-md-9 col-sm-8">
       <div class="contain">
-        <h1><span class="black">9. </span>Contact</h1>
+        <h1><span class="black">9. </span>联系人</h1>
         <p class="larger">
-          For more information about career planning and the support available to you as a university student, please contact your university’s careers service and they will be able to advise you on the services and resources they have available for you.
+          要了解更多关于职业规划以及可获取支持的信息，请联系你大学的职业服务部，他们可以针对你能使用的服务和资源向你提出建议。
         </p>
 
-        <h3 class="black">About this resource</h3>
-        <p>This e-learning resource has been created by the University of Warwick, UK, through funding from the UK Government FCO Prosperity Fund and the British Council.
-        </p>
-        <h3 class="black">Further courses</h3>
-        <p>The University of Warwick has also created an Innovation Skills and Entrepreneurship e-learning resource for Chinese students studying in the UK – <a href="www.innovate2getahead.co.uk">www.innovate2getahead.co.uk</a>
-        </p>
+        <h3 class="black">关于</h3>
+        <p>本电子学习资源由英国华威大学在英国政府FCO成功基金的资助下编制</p>
+        <p>华威大学还与北京大学一起共同为留英中国学生创建了一个全新的“创新和创业”电子学习资源
+          <a href="http://www.innovate2getahead.co.uk/">Innovate2GetAhead.co.uk</a></p>
 
         <hr>
-        <h3>Feedback</h3>
+        <h3>反馈</h3>
 
         <div class="thumbnail">
           <!-- www.123contactform.com script begins here -->
@@ -50,10 +48,10 @@
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
-            <em>Use your university website and check the information regularly to avoid missing some good opportunities.</em>
+            <em>使用你的大学网站，定期检查信息，免得错过好机会。</em>
         </div>
         <div class="name">
-          <h5>Undergraduate student</h5>
+          <h5>中国本科生</h5>
         </div>
       </div>
     </div>
