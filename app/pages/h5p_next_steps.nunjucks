@@ -20,7 +20,7 @@
   </div><!--end col-->
 </div><!--end row-->
 
-<a href="resources.html" class="nx-button">></a>
+<a href="nextsteps.html" class="nx-button"><</a>
 </article>
 
 {% endblock %}

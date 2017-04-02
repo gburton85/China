@@ -76,27 +76,27 @@
       <div class="contain">
         <div class="well">
               <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> 学习活动</h2>
-              <p><b>What will your career journey look like?</b> As you start thinking about your career plan, you may find it useful to consider some pictures to represent your career:
+              <p><b>你会有什么样的职业生涯？</b> 在开始思考职业规划之时，设想一些能够体现你的职业的场景会有所帮助：
               </p>
               <a href="h5p_career_picture.html"><button id="button">开始活动</button></a>
         </div>
 
         <div class="well">
-              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> Jargon buster</h2>
+              <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> 行话解读</h2>
               <p>
-                Understanding the language of career planning.  Make sure you are familiar with the language and  ideas of career planning; this way you will make the best use of this course:
-                </p>
+                理解职业规划的词语。确保你熟悉职业规划的词语和观念；这样你可以充分利用本课程：
+              </p>
               <a href="h5p_jargon.html"><button id="button">开始活动</button></a>
         </div>
 
         <div class="well">
               <h2><i class="fa fa-check-square black" aria-hidden="true"></i> 我的职业计划模板
                 </h2>
-              <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
+              <p>以下是开始职业规划的第二步 - 下载模板，并花一些时间通读引导你开始制定自己的职业规划的问题。
               </p>
-              <p><b>Section 2</b> of the <a href="docs/2Get_A_Career_Plan_Template.docx">Career Plan</a> is all about thinking about where you are now and what steps you would like to take over the coming months.  It’s also an opportunity to talk with other people to learn from them and their experiences.
+              <p>职业规划的第2部分是关于思考你的现状，以及你在未来数月将要采取的行动步骤。这也是你与其他人交流，并从他们及其经历中有所收获的机会。
               </p>
-              <a href="docs/2Get_A_Career_Plan_Template.docx"><button id="button">获取模板</button></a>
+              <a href="docs/ch/2Get_A_Career_Plan_Template.docx"><button id="button">获取模板</button></a>
         </div>
 
     </div><!--end contain-->

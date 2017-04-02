@@ -62,7 +62,7 @@
 
         <div class="well">
               <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> 学习活动</h2>
-              <p><b>Why should I review my career plan?</b> It’s important to make time to review your plan, reflect on your choices, consider other options:
+              <p>我为何需要检查自己的职业规划？一定要花时间检查自己的规划，反思自己的选择，并考虑其它的选项：
               </p>
               <a href="h5p_review_plan.html"><button id="button">开始活动</button></a>
         </div>
@@ -70,11 +70,11 @@
         <div class="well">
               <h2><i class="fa fa-check-square black" aria-hidden="true"></i> 我的职业计划模板
                 </h2>
-              <p>Here is the final step in developing the beginnings of your career plan - download the template below and spend some time to go through the questions.
+              <p>以下是制定职业规划开始部分的最后一步 - 下载下方的模板，并花一些时间通读问题。
               </p>
-              <p><b>Section 6</b> of the <a href="docs/6Review_Your_Career_Plan_Template.docx">Career Plan</a> is a checklist to help you see where you are with your planning and to help you make some future goals so you can track your progress.
+              <p>职业规划的第6部分是一个检查清单，帮助你了解自己规划的现状，并帮助你制定一些未来目标，因此你可以了解自己的进展。
               </p>
-              <a href="docs/6Review_Your_Career_Plan_Template.docx"><button id="button">获取模板</button></a>
+              <a href="docs/ch/6Review_Your_Career_Plan_Template.docx"><button id="button">获取模板</button></a>
         </div>
 
     </div><!--end contain-->

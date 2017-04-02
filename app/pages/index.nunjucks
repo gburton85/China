@@ -25,7 +25,7 @@
     <div class="col-md-9 col-sm-8">
       <div class="contain">
         <h1 class="xl">Careers information for Chinese students</h1>
-
+        <h3 class="black" style="margin-bottom:0">To help you:</h3>
         <ul class="larger list">
           <li><p>Make the most of your time at university in the UK</p></li>
           <li><p>Understand yourself and your dreams and goals</p></li>

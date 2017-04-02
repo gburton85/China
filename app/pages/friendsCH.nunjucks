@@ -3,9 +3,9 @@
 
 {% block content %}
 <!-- Adds the navigation partial -->
-{% include "partials/navigation.nunjucks" %}
+{% include "partials/navigationCH.nunjucks" %}
 {% include "partials/subheader.nunjucks" %}
-{% include "partials/logo.nunjucks" %}
+{% include "partials/logoCH.nunjucks" %}
 <!--content-->
 <div class="lang">
   <ul>
@@ -14,22 +14,22 @@
   </ul>
 </div>
 
-<article>
+<article class="ch">
 
   <div class="row">
     <div class="col-md-12 col-sm-12">
       <div class="contain">
-        <h1><span class="green">Friendships</span></h1>
+        <h1><span class="green">交友</span></h1>
 
-        <p class="larger">Studying in the UK will provide you with the opportunity to meet people from all over the world!  Many universities in the UK have students from over 150 different countries, giving you amazing opportunities to make new friends, learn about different cultures, languages and gain intercultural communication skills.
+        <p class="larger">在英国学习将让你有机会见到来自世界各地的人！英国的许多大学都拥有来自超过150个不同国家的学生，这是结交新朋友，了解异域文化和语言以及掌握跨文化交流技能的绝好机会。
         </p>
-        <p>Intercultural communication enables you to communicate effectively across cultures, which is increasingly important, as the world moves to enabling us all to have more and more contact with people who are culturally different from ourselves.
+        <p>跨文化交流 能够让你在不同文化之间进行有效沟通，这一点日益 重要，因为世界的发展已经能够让我们与越来越多具有不同文化背景的人建立联系。
         </p>
-        <p>Intercultural communication is a skill desired by many employers and is a skill that comes through your own real-life experiences, as well as studying.
+        <p>跨文化交流是许多雇主期望的一项技能，也是贯穿你的真实生活体验和学习过程的一项技能。
         </p>
-        <p>As national economies evolve, overlap, and merge, the need to do business in a variety of cultures is a necessity and organisations are increasingly searching for workers who are skilled, flexible, and able to adjust and apply their skills with the tact and sensitivity that will enhance business success internationally.
+        <p>随着各国经济的发展、互相依存和融合，在多元文化背景下进行业务往来变得十分必要，各公司也在不断寻找技术娴熟、适应性强的员工，希望员工能够不断调整并将他们的技能与辨识力和对问题的敏感性相结合，从而促进全球范围的商业成功。
         </p>
-        <p>Culture has a large impact on how people conduct business; therefore, intercultural communication skills and awareness are critical for succeeding in an international context.
+        <p>文化对于人们怎样开展业务具有重要影响；因此，跨文化交流技能和意识是在国际环境下取得成功的关键。
         </p>
 
         <hr>

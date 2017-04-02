@@ -72,7 +72,7 @@
 
         <div class="well">
               <h2><i class="fa fa-lightbulb-o black" aria-hidden="true"></i> 学习活动 </h2>
-              <p>What skills can I develop in the UK?  As you prepare for your studies in the UK, learn more about how studying and living in the UK will help you develop valuable skills for your future:
+              <p>我在英国可以发展什么技能？在你为英国求学做准备时，深入了解如何在英国学习和生活会帮助你为未来培养宝贵的技能：
               </p>
               <a href="h5p_skills.html"><button id="button">开始活动</button></a>
         </div>
@@ -80,11 +80,11 @@
         <div class="well">
               <h2><i class="fa fa-check-square black" aria-hidden="true"></i> 我的职业计划模板
                 </h2>
-              <p>Here is the second step to get you started with your career plan - download the template and take some time to go through the questions which will guide you through creating the start of your own career plan.
+              <p>以下是开始职业规划的第二步 - 下载模板，并花一些时间通读引导你开始制定自己的职业规划的问题。
               </p>
-              <p><b>Section 5</b> of the <a href="docs/5DevelopYourSkillsTemplate.docx">Career Plan</a> is all about thinking and planning how you will start to gain the key skills you need to help you get ahead in your career.
+              <p>职业规划的第5部分是有关思考并规划你将如何开始获得你将需要的关键技能，以便帮助你在职业生涯中领先一步。
               </p>
-              <a href="docs/5DevelopYourSkillsTemplate.docx"><button id="button">获取模板</button></a>
+              <a href="docs/ch/5Develop_Your_Skills_Template.docx"><button id="button">获取模板</button></a>
         </div>
 
     </div><!--end contain-->

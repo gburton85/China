@@ -24,7 +24,7 @@
   </div><!--end col-->
 </div><!--end row-->
 
-<a href="options.html" class="nx-button">></a>
+<a href="getacareerplan.html" class="nx-button"><</a>
 </article>
 
 {% endblock %}

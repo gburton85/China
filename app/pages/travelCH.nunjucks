@@ -3,9 +3,9 @@
 
 {% block content %}
 <!-- Adds the navigation partial -->
-{% include "partials/navigation.nunjucks" %}
+{% include "partials/navigationCH.nunjucks" %}
 {% include "partials/subheader.nunjucks" %}
-{% include "partials/logo.nunjucks" %}
+{% include "partials/logoCH.nunjucks" %}
 <!--content-->
 <div class="lang">
   <ul>
@@ -14,48 +14,48 @@
   </ul>
 </div>
 
-<article>
+<article class="ch">
 
   <div class="row">
     <div class="col-md-12 col-sm-12">
       <div class="contain">
-        <h1><span class="black">Travel in the UK and Europe</span></h1>
+        <h1><span class="black">旅行</span></h1>
 
-        <p class="larger">Anytime you can experience the richness of cultures different from your own — by talking with people of other nationalities, travelling internationally, trying foods from other countries and embracing other educational experiences that fall outside of your comfort zone — you grow and change in positive ways. And this is just the kind of personal development that can help you stand out in the eyes of future employers.
+        <p class="larger">你随时可以体验不同于家乡的丰富文化：与不同国家的人交流、跨国旅行、品尝异域美食以及拥有海外教育经历，你正以一种积极的方式成长和改变自己。这种个人发展经历能帮助你受到未来雇主的瞩目和青睐。
         </p>
-        <p>The UK university academic year is generally divided up into terms or semesters with breaks of up to several weeks in between.  These breaks offer you the opportunity to use these to travel, not just for relaxation but also to help develop your experiences to boost your CV!
+        <p>英国大学的学年通常分为两个阶段或学期，期间有数周的假期。你可以利用这些假期去旅行，不仅是放松身心，还可以增加阅历，成为简历的点睛之笔！
         </p>
 
         <hr>
 
-        <h3>Travel offers you a number of benefits including:</h3>
+        <h3>旅行可以为你带来诸多好处，包括：</h3>
           <ul class="subList">
-            <li><b>Developing your self-awareness</b><br>
-              Gathering information about the world — seeing different landscapes, experiencing the challenges of certain cultures, listening to the opinions of people in other nations — provides rich learning opportunities, as well as giving you a sense of your own place and purpose and your values and priorities.
+            <li><b>培养自我意识</b><br>
+            获得关于这个世界的知识：观赏不同的风景、经历某些文化的挑战、倾听其他国家人们的观点，为你提供丰富的学习机会，让你意识到自己所处的位置和目的，了解自己的价值和需要优先考虑的事情。
             </li>
-            <li><b>Enhancing your perspective</b><br>
-            Exposure to other lifestyles in other countries can help you to develop your intercultural awareness. Having a broad awareness of how other people live and what other cultures prioritise can trigger ideas and creative thinking.
+            <li><b>开拓视野</b><br>
+            在异国他乡体验不同的生活方式能够帮助你培养跨文化意识。充分了解其他人的生活以及异国文化所优先关注的事情有助于激发灵感和创造性思维。
             </li>
-            <li><b>Developing independence</b><br>
-            Living and working for any amount of time in a culture that’s different from your own home can help you in a variety of ways. This enriching experience challenges you to open your mind regarding food, friends and basic needs and develops your perspective as a global citizen.
+            <li><b>培养独立性</b><br>
+            在异国他乡的文化环境下生活和工作一段时间能够为你带来各种帮助。这种充实的经历能够促使你在饮食、交友和基本生存需求方面增长见识、开拓视野，成为一名全球公民。
             </li>
-            <li><b>Strengthening leadership skills</b></br>
-            Being able to talk about your actual experiences, rather than simply what you have learned, adds to your credibility as a potential employee. Travelling can develop your perspective, confidence and conviction that will make it easier to gain the respect of others.
+            <li><b>增强领导力</b></br>
+            能够谈论你的亲身经历，而不是简单地描述你所学的知识，这样可以增加你作为潜在员工的可信度。旅行可以开拓你的视野、增强信心和信念，让你更容易获得他人的尊敬。
             </li>
-            <li><b>Demonstrating courage</b><br>
-            Travelling away from the comfort of friends, family and familiar surroundings can be hard, but doing it shows that you are interested in the rest of the world and confident enough in yourself to venture out and discover other parts of the world. This is a character trait that’s very appealing to employers and organisations.
+            <li><b>展示勇气</b><br>
+            离开亲密的朋友、家庭和熟悉的环境去旅行是一件困难的事情，但是却能表明你对外面世界的兴趣，以及你有足够的信心去探索和发现世界另一番景象。这是一种非常能吸引雇主和公司的性格特征。
             </li>
           </ul>
 
-          <p class="larger">No matter what your life and career goals are, travel can provide important perspectives and help you discover who you are and what are your values.
+          <p class="larger">无论你的生活和职业目标是什么，旅行都能为你提供重要视角，帮助你了解自我以及自己的价值观。
           </p>
 
         <div class="well">
-        <h3>Task</h3>
+        <h3>任务</h3>
         <ul>
-          <li>Make a list of the countries and places you have visited
+          <li>制作一份你已经去过的国家和地方的清单。
           </li>
-          <li>Keep a travel journal, write down what was different and what was similar to your own home and culture
+          <li>撰写旅行日记，记录下与你的家乡和文化的不同和相似之处。
           </li>
         </ul>
         </div>

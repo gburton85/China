@@ -3,10 +3,10 @@
 
 {% block content %}
 <!-- Adds the navigation partial -->
-{% include "partials/navigation.nunjucks" %}
+{% include "partials/navigationCH.nunjucks" %}
 {% set pg8 = true %}
 {% include "partials/subheader.nunjucks" %}
-{% include "partials/logo.nunjucks" %}
+{% include "partials/logoCH.nunjucks" %}
 <!--content-->
 <div class="lang">
   <ul>
@@ -22,21 +22,21 @@
       <div class="contain">
         <h1><span class="black">8. </span>资源</h1>
         <p class="larger">
-          The <a href="https://study-uk.britishcouncil.org/" class="green">British Council</a> is the UK’s international organisation for cultural relations and educational opportunities.  The British Council website provides a wide range of information for international students planning to study in the UK.
+          <a href="https://study-uk.britishcouncil.org/" class="green">英国文化教育协会</a>是英国文化关系和教育机会的国际组织。英国文化教育协会网站为计划到英国求学的国际学生提供丰富的信息。
         </p>
         <p>
           英国国际学生事务委员会<a href="http://www.ukcisa.org.uk/" class="green">(UKCISA)</a>是一家英国的国家级咨询机构，为留学生以及与其共事的人员提供服务。近50年来，他们一直在为留学生、大学、学院和学生会提供支持。
-          Find out more about how you can prepare yourself for academic study by using the
-          <a href="http://www.prepareforsuccess.org.uk/" class="green">Prepare for Success</a> online learning materials.
+          使用<a href="http://www.prepareforsuccess.org.uk/" class="green">为成功做好准备</a>在线学习资料，深入了解如何让自己为学术研究做好准备。
         </p>
 
-        <p>The UCAS organisation co-ordinates applications to all UK universities, and also provides useful information for <a href="https://www.ucas.com/?tile=tile-366" class="green">international students</a> and <a href="https://www.ucas.com/ucas/16-18-choices/find-career-ideas/buzz-quiz" class="green">quizzes</a> to help you decide on your career.
+        <p>UCAS组织协调所有英国大学的申请，还为<a href="https://www.ucas.com/?tile=tile-366" class="green">国际学生</a>提供有用信息，以及有助你进行职业决策的<a href="https://www.ucas.com/ucas/16-18-choices/find-career-ideas/buzz-quiz" class="green">小测验。</a>
         </p>
-        <p>The <a href="https://targetjobs.co.uk/careers-advice/international-students/417084-international-students-guide-to-job-hunting-in-the-uk" class="green">Target Jobs</a> website provides a guide for international students who are looking for a job in the UK, as well as advice on getting <a href="https://targetjobs.co.uk/careers-advice/international-students/417078-getting-work-experience-as-an-international-student" class="green">work experience</a>.
+        <p><a href="https://targetjobs.co.uk/careers-advice/international-students/417084-international-students-guide-to-job-hunting-in-the-uk" class="green"> 目标职位</a>网站为正在英国寻找工作的国际学生提供指导，以及有关获取 <a href="https://targetjobs.co.uk/careers-advice/international-students/417078-getting-work-experience-as-an-international-student" class="green">工作经验</a>的建议。
         </p>
-        <p>The Prospects website provides information about over 400 graduate jobs, and includes a useful <a href="https://www.prospects.ac.uk/planner" class="green">Planner</a>  which will match your skills and personality to job profiles.  The website includes advice on <a href="https://www.prospects.ac.uk/careers-advice/cvs-and-cover-letters" class="green">writing CVs</a>, making the most of <a href="https://www.prospects.ac.uk/jobs-and-work-experience/work-experience-and-internships" class="green">work experience</a> and insight into different <a href="https://www.prospects.ac.uk/jobs-and-work-experience/job-sectors" class="green">job sectors</a>.
+        <p>展望网站提供了有关400多个毕业生职位的信息，并包括有用的<a href="https://www.prospects.ac.uk/planner" class="green">规划表</a>，它可以将你的技能和性格与工作档案资料进行匹配。该网站包括以下方面的建议： <a href="https://www.prospects.ac.uk/careers-advice/cvs-and-cover-letters" class="green">撰写简历</a>、充分利用 <a href="https://www.prospects.ac.uk/jobs-and-work-experience/work-experience-and-internships" class="green">工作经验 </a>，以及洞察不同的
+          <a href="https://www.prospects.ac.uk/jobs-and-work-experience/job-sectors" class="green">工作领域。</a>
         </p>
-        <p>Personality questionnaires such as the <a href="http://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/" class="green">Myers Brigg Type Indicator</a> provide analysis of personality and career choice.
+        <p><a href="http://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/" class="green">Myers Brigg类型指标 </a>等性格调查问卷提供性格和职业选择的分析。
         </p>
         <hr>
       </div><!-- end contian-->
@@ -48,11 +48,12 @@
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
-            <em>When I researched my options for the future it was difficult to decide which resources were reliable.  Having a list of suggested resources makes my research easier
+            <em>在我研究未来的工作选择时，我很难决定哪些资源可靠。列出建议资源可以简化我的研究
             </em>
         </div>
         <div class="name">
-          <h5>Undergraduate</h5>
+          <h5>大学本科
+          </h5>
         </div>
 
       </div>

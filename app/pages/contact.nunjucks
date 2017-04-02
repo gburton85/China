@@ -34,7 +34,8 @@
 
         <hr>
         <h3>Feedback</h3>
-
+        <p>We would really like to hear your feedback and comments on this resource – please get in touch using the feedback form:
+        </p>
         <div class="thumbnail">
           <!-- www.123contactform.com script begins here -->
           <script type="text/javascript" defer src="//www.123contactform.com/embed/2565462.js" data-role="form"></script>
@@ -50,7 +51,8 @@
 
         <div class="quote">
           <img src="images/quote-green.png" class="img-responsive quoteMarks">
-            <em>Use your university website and check the information regularly to avoid missing some good opportunities.</em>
+            <em>Use your university’s careers website and check the information regularly as there is plenty going on to help you, from a one-to-one appointment, to CV checks, application and interview help as well as employer presentations and careers fairs.
+            </em>
         </div>
         <div class="name">
           <h5>Undergraduate student</h5>

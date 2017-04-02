@@ -3,9 +3,9 @@
 
 {% block content %}
 <!-- Adds the navigation partial -->
-{% include "partials/navigation.nunjucks" %}
+{% include "partials/navigationCH.nunjucks" %}
 {% include "partials/subheader.nunjucks" %}
-{% include "partials/logo.nunjucks" %}
+{% include "partials/logoCH.nunjucks" %}
 <!--content-->
 <div class="lang">
   <ul>
@@ -14,16 +14,16 @@
   </ul>
 </div>
 
-<article>
+<article class="ch">
 
   <div class="row">
     <div class="col-md-9 col-sm-8">
       <div class="contain">
-        <h1><span class="black">Language</span></h1>
+        <h1><span class="black">语言</span></h1>
 
-        <p class="larger green">Studying in the UK means that your degree will be taught in the English language and it may also be the only common language between you and students from different nationalities.
+        <p class="larger green">在英国学习意味着你的学位课程将用英语教授，英语也是你与不同国籍学生之间的唯一常用语言。
         </p>
-        <p>Whilst you may have been studying English in the classroom, take the time now to develop your English skills further, both your written, reading and spoken skills.
+        <p>你可能一直在学校学习英语，现在要抓紧时间进一步提高你的英语能力，包括书面、阅读和口语。
         </p>
 
         <hr>
@@ -34,8 +34,8 @@
       <div class="well links">
         <ul>
         <li><a href="http://www.internationalstudents.cam.ac.uk/arriving/pre-arrival-information/online-resources-academic-english">
-          Pre-arrival resources</a></li>
-          <li><a href="https://www.britishcouncil.org/english/academics">Academics</a></li>
+          入学前资源</a></li>
+          <li><a href="https://www.britishcouncil.org/english/academics">学术</a></li>
         </ul>
       </div>
     </div>

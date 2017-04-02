@@ -3,9 +3,9 @@
 
 {% block content %}
 <!-- Adds the navigation partial -->
-{% include "partials/navigation.nunjucks" %}
+{% include "partials/navigationCH.nunjucks" %}
 {% include "partials/subheader.nunjucks" %}
-{% include "partials/logo.nunjucks" %}
+{% include "partials/logoCH.nunjucks" %}
 <!--content-->
 <div class="lang">
   <ul>
@@ -14,49 +14,48 @@
   </ul>
 </div>
 
-<article>
+<article class="ch">
 
   <div class="row">
     <div class="col-md-10 col-sm-10">
       <div class="contain">
-        <h1><span class="black">Work experience</span></h1>
+        <h1><span class="black">工作经验</span></h1>
 
-        <p class="larger">There are a number of different ways of gaining work experience whilst at university:
+        <p class="larger">在大学期间有多种不同方式可以获得工作经验：
         </p>
 
-        <h3>Temporary work</h3>
+        <h3>临时工作</h3>
 
-        <p>Working on campus in a temporary position can look good on your CV, as employers will be impressed that you are able to both study and a manage a job. Temporary positions are often flexible, enabling you to work around your lectures or exams, plus they are paid so can help you to manage your finances!
+        <p>参加校园临时工作能让简历看起来很出色，因为工作学习两不误的能力会给雇主留下深刻印象。临时工作通常很灵活，你能在听讲座或参加考试之余工作，同时可以拿到薪水，帮助你管理自己的财务状况！
         </p>
-        <p>You can find out more about temporary work experience positions and opportunities by contacting your university Careers Service. Many UK universities have their own Unitemps service which provide part-time or full-time temporary paid work assignments – anything from one-hour shifts to full-time work for several months.
+        <p>你可以联系所在大学就业服务机构，获得关于工作经验、工作岗位和机会的更多信息。英国许多大学拥有自己的Unitemps服务机构，可以提供带薪兼职或全职临时工作，从一小时换班一次到数月的全职工作都有。
         </p>
 
         <hr>
 
-        <h3>Volunteering</h3>
+        <h3>参加志愿服务</h3>
 
-        <p>Volunteering is an ideal way to gain experience and skills, alongside contributing your time and energy to support an organisation or project and the local community.
+        <p>参加志愿服务是获得经验和技能的理想方式，可以将你的时间和精力贡献给需要支援的机构、项目以及本地社区。
         </p>
-        <p>As well as giving back to society, volunteering is also a great way to get to know the local area, meet new people and gain experience in a very different setting to that of a UK university.
+        <p>除了回馈社会，参加志愿服务也是了解本地区、结交新朋友以及在不同于英国大学的环境中获得独特体验的好方法。
         </p>
-        <p>Employers value the benefits of volunteering, as very often the projects you will be involved and the skills you develop, can easily be transferred to the work place.
+        <p>雇主非常重视参加志愿服务的收益，因为你要参加的项目与掌握的技能通常可以顺利地的用于工作场合。
         </p>
 
         <div class="well">
-          <em>“In a competitive job market, prospective employers want to see what makes you different from all the other candidates, and volunteering is a great way of standing out from the crowd. By demonstrating that you take part in meaningful activities in your spare time, you will show an employer that you are a well-rounded person with some interesting life experience.” Employer
-          </em>
+          <em>“在竞争激烈的就业市场，潜在雇主希望看到你不同于其他所有候选者的独特之处，参加志愿活动是一种让你脱颖而出的好方法。通过证明你在业余时间参加有意义的活动，你可以向雇主展示你拥有丰富生活经历且全面发展。雇主</em>
         </div>
 
-        <p>Many UK universities have a team dedicated to supporting student volunteering.  Find out more if your university offers volunteering opportunities and look at the types of projects you might enjoy being involved with.
+        <p>英国许多大学拥有专门团队支持学生志愿服务。深入了解你所在大学是否提供参加志愿服务的机会，寻找你可能会喜欢参加的项目类型。
         </p>
-        <p>Here are some of the benefits of volunteering shared by students:
+        <p>以下是学生们分享的参加志愿服务的好处：
         </p>
         <div class="well">
-          <p><em>“Being far away from my family has been extremely hard for me. Getting back into volunteering gives me joy that can decrease the amount of loneliness I'm feeling”
+          <p><em>“远离家庭对我来说非常难熬。参加志愿服务给我带来乐趣，减轻了孤独感“
           </em></p>
-          <p><em>“I gained confidence in talking to people of different ages and from different backgrounds”
+          <p><em>“与不同年龄不同背景的人交谈增加了我的信心”
           </em></p>
-          <p><em>“Insight into a new career path that I now want to embark on!”
+          <p><em>“深入了解我想开始的全新职业道路！”
           </em></p>
         </div>
 
