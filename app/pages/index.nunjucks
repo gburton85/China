@@ -78,34 +78,60 @@
 
   <p style="padding-bottom: 0;" class="noPad larger green">Follow the seven steps below to develop your career plan.</p>
 
-  <div class="masonry">
-  <div class="masonry__item masonry__item--1">
-    <a href="getahead.html"><img src="images/1Getahead.svg" alt="1" title="1"/></a>
+  <!--alternative masonry style-->
+
+    <div class="masonry">
+      <div class="row">
+      <div class="col-sm-4">
+        <div class="masonry__item masonry__item--1">
+          <a href="getahead.html"><img src="images/1Getahead.svg" alt="1" title="1"/></a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="masonry__item masonry__item--2">
+          <a href="getacareerplan.html"><img src="images/2.svg" alt="2" title="2"/></a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="masonry__item masonry__item--3">
+          <a href="options.html"><img src="images/3.svg" alt="3" title="3"/></a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+    <div class="masonry__item masonry__item--4">
+      <a href="createcareerplan.html"><img src="images/4.svg" alt="4" title="4"/></a>
+    </div>
   </div>
-  <div class="masonry__item masonry__item--2">
-    <a href="getacareerplan.html"><img src="images/2.svg" alt="2" title="2"/></a>
+  <div class="col-sm-4">
+    <div class="masonry__item masonry__item--5">
+      <a href="yourskills.html"><img src="images/5.svg" alt="5" title="5"/></a>
+    </div>
   </div>
-  <div class="masonry__item masonry__item--3">
-    <a href="options.html"><img src="images/3.svg" alt="3" title="3"/></a>
+  <div class="col-sm-4">
+    <div class="masonry__item masonry__item--6">
+      <a href="reviewyourplan.html"><img src="images/6.svg" alt="6" title="6"/></a>
+    </div>
   </div>
-  <div class="masonry__item masonry__item--4">
-    <a href="createcareerplan.html"><img src="images/4.svg" alt="4" title="4"/></a>
+  <div class="col-sm-4">
+    <div class="masonry__item masonry__item--7">
+      <a href="nextsteps.html"><img src="images/7.svg" alt="7" title="7"/></a>
+    </div>
   </div>
-  <div class="masonry__item masonry__item--5">
-    <a href="yourskills.html"><img src="images/5.svg" alt="5" title="5"/></a>
+  <div class="col-sm-4">
+    <div class="masonry__item masonry__item--8">
+      <a href="resources.html"><img src="images/8.svg" alt="8" title="8"/></a>
+    </div>
   </div>
-  <div class="masonry__item masonry__item--6">
-    <a href="reviewyourplan.html"><img src="images/6.svg" alt="6" title="6"/></a>
+  <div class="col-sm-4">
+    <div class="masonry__item masonry__item--9">
+      <a href="contact.html"><img src="images/9.svg" alt="9" title="9"/></a>
+    </div>
   </div>
-  <div class="masonry__item masonry__item--7">
-    <a href="nextsteps.html"><img src="images/7.svg" alt="7" title="7"/></a>
+
   </div>
-  <div class="masonry__item masonry__item--8">
-    <a href="resources.html"><img src="images/8.svg" alt="8" title="8"/></a>
-  </div>
-  <div class="masonry__item masonry__item--9">
-    <a href="contact.html"><img src="images/9.svg" alt="9" title="9"/></a>
-  </div>
+</div>
+
+<!--end masonry-->
 
 </div>
 </section>
